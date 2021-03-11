@@ -1,65 +1,62 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/nav/navbar'
+import Layout from '../components/Layout'
+import Card from '../components/card'
+import { faDumbbell, faComment, faDesktop } from '@fortawesome/free-solid-svg-icons'
+import SubscribeForm from '../components/SubscribeForm'
 
-export default function Home() {
+
+const index = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <Layout>
+      {/* Hero */}
+      <div className="min-h-screen flex bg-gray-200 sm:bg-transparent">
+        <div className="absolute hidden sm:block h-full w-screen bg-gradient-to-b from-vacblue to-transparent" style={{zIndex: -1}}  />
+          <div className="hidden sm:block h-screen top-52 md:top-0 w-screen absolute"style={{zIndex: -2}}>
+          <Image
+            alt="Background image"
+            src="/../public/vacsplash.jpg"
+            layout="fill"
+            objectFit="cover"
+            quality={100} 
+          />
+          </div>
+          <div className="flex flex-col justify-center items-center relative px-6 xl:px-32 z-10 w-screen">
+            <h1 className="text-left tracking-tight mt-52 nav2:mt-44">
+              <span className="block text-vacblue sm:text-vacgrey font-extrabold uppercase tracking-tighter text-6xl">Special Offer</span>
+              <span className="block text-gray-600 sm:text-white font-bold uppercase leading-6 text-2xl">Reduced rates on Group Personal Training</span>
+            </h1>
+            {/* Info Cards */}
+            <div className="flex flex-col justify-center lg:flex-row justify-self-center max-w-md md:max-w-max">
+              <Card body="We're pleased to now offer online purchasing and scheduling in one convenient location
+              on our website  for all of your personal training needs!
+              It’s now easier than ever to get the training you need when you need it!" header="Online Booking" icon={faDumbbell} 
+              button="Schedule Now"/>
+              <Card header="Virtual Training" body="We’ve got you covered with virtual training sessions that will
+              ensure you stay strong, healthy and connected to your VAC community from the comfort of your home.
+                Up to 4 virtual training sessions are available to book throughout the week for as little as $96 per month!" icon={faDesktop}
+                button="learn more"/>
+              <Card header="Free Fitness Consultation" icon={faComment} body="If you'd like more in depth information 
+              about any of these options or to learn more about the VAC trainers, schedule a Fitness Consultation
+              with our Personal Training Director, Erika Anderson
+                erika@vashonathleticclub.com" button="Free Consultation"/>
+            </div>
         </div>
-      </main>
+      </div>
+      {/* Subscribe section */}
+      <section className="relative flex md:justify-center">
+        <SubscribeForm />
+      </section>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      {/* Latest news */}
+      <section>
+
+      </section>
+
+    </Layout>
   )
 }
+
+export default index

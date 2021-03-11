@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+  min-height: 100%;
+  min-width: 100%;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +18,166 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* NAV1 STYLES*/
+/* .member-list {
+  transition: 150ms ease-in-out;
+}
+
+.member-list:hover .member-head {
+  background-color: #045184;
+  color: white;
+}
+
+.training-list {
+  transition: 150ms ease-in-out;
+}
+
+.training-list:hover .training-head {
+  background-color: #045184;
+  color: white;
+}
+
+.pool-list {
+  transition: 150ms ease-in-out;
+}
+
+.pool-list:hover .pool-head {
+  background-color: #045184;
+  color: white;
+}
+
+.schedules-head:hover {
+  background-color: #045184;
+  color: white;
+}
+
+.schedules-head {
+  transition: 150ms ease-in-out;
+}
+
+.news-head:hover {
+  background-color: #045184;
+  color: white;
+}
+
+.news-head {
+  transition: 150ms ease-in-out;
+}
+
+.home-head:hover {
+  background-color: #045184;
+  color: white;
+}
+
+.home-head {
+  transition: 150ms ease-in-out;
+}
+
+.current-tab > a::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border-bottom: 1px solid #045184;
+}
+*/
+
+.member-list {
+  transition: 150ms ease-in-out;
+}
+
+.member-list:hover .member-head {
+  background-color: white;
+  color: #242857;
+}
+
+.training-list {
+  transition: 150ms ease-in-out;
+}
+
+.training-list:hover .training-head {
+  background-color: white;
+  color: #242857;
+}
+
+.pool-list {
+  transition: 150ms ease-in-out;
+}
+
+.pool-list:hover .pool-head {
+  background-color: white;
+  color: #242857;
+}
+
+.schedules-head:hover {
+  background-color: white;
+  color: #242857;
+}
+
+.schedules-head {
+  transition: 150ms ease-in-out;
+}
+
+.news-head:hover {
+  background-color: white;
+  color: #242857;
+}
+
+.news-head {
+  transition: 150ms ease-in-out;
+}
+
+.home-head:hover {
+  background-color: white;
+  color: #242857;
+}
+
+.home-head {
+  transition: 150ms ease-in-out;
+}
+
+.nav-tab {
+  box-shadow: rgb(0 0 0 / 6%) 0px 2px 4px 0px inset,
+    rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+}
+
+.mobile {
+  right: -110vw;
+  transition: right 850ms ease-in-out;
+}
+
+.mobile-active {
+  right: 0vw;
+  transition: right 350ms ease-in-out;
+}
+
+.current-tab > a::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border-bottom: 1px solid white;
+}
+
+.nav2 {
+  margin-top: 5.7rem;
+  height: 5rem;
+}
+
+.nav2 > .current-tab > a::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 750px) {
+  .nav2 {
+    margin-top: 8.6rem;
+    height: 4.4rem;
+    background-color: #2e3d6a;
+  }
 }
