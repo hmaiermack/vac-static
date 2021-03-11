@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const index = () => {
+const index = () => {
     return (
         <div>
-            pt spash
+            
         </div>
     )
 }
+
+export default index
