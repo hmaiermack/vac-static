@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Card from '../components/card'
 import { faDumbbell, faComment, faDesktop } from '@fortawesome/free-solid-svg-icons'
 import SubscribeForm from '../components/SubscribeForm'
+import Post from '../components/Post'
 
 
 const index = () => {
@@ -15,7 +16,7 @@ const index = () => {
           <div className="hidden sm:block h-screen top-52 md:top-0 w-screen absolute"style={{zIndex: -2}}>
           <Image
             alt="Background image"
-            src="/../public/vacsplash.jpg"
+            src="/vacsplash.jpg"
             layout="fill"
             objectFit="cover"
             quality={100} 
@@ -25,7 +26,7 @@ const index = () => {
             <h1 className="text-left tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8">
               <span className="block text-vacblue sm:text-vacgrey font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl">Special Offer</span>
               <span className="block text-gray-600 sm:text-white font-bold uppercase leading-6 text-2xl sm:text-3xl">Reduced rates on Group Personal Training</span>
-              <p className="hidden sm:block text-2xl text-white max-w-prose mt-4 bg-vacpurple bg-opacity-80 p-4 rounded leading-relaxed">
+              <p className="hidden nav2:block text-2xl text-white max-w-prose mt-4 bg-vacpurple bg-opacity-80 p-4 leading-relaxed">
               Semi-Private Personal Training sessions are available now! Semi-Private Training package options allow you to choose 1 session, 
               2 sessions, or 3 sessions per week. Workout among up to 5 like minded individuals in a fun, safe and supportive environment.  
               Each class is 1 hour in length and covers fundamentals of strength training, mobility, balance, agility and core work. 
@@ -50,13 +51,14 @@ const index = () => {
         </div>
       </div>
       {/* Subscribe section */}
-      <section className="relative flex md:justify-center">
+      <section className="relative flex md:justify-center py-2">
         <SubscribeForm />
       </section>
 
       {/* Latest news */}
-      <section>
-
+      <section className="bg-vacblue text-white px-8 py-4">
+        <h2 className="text-4xl font-extrabold text-center mb-4">Latest News</h2>
+        <Post />
       </section>
 
     </Layout>

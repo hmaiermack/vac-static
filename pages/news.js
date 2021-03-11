@@ -1,9 +1,10 @@
 import React from 'react'
+import Post from '../components/Post'
 
 const news = () => {
     return (
         <div>
-            news
+            <Post />
         </div>
     )
 }

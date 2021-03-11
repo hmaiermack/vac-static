@@ -27,9 +27,9 @@ export default function Nav2() {
         <nav className="z-50 fixed">
             {/* Logo screens 750px or larger */}
             <div className="hidden nav2:absolute h-48 nav2:inline-flex left-5" style={{width: '44rem'}}>
-                <Link href="/">
+                <Link href="/" passHref={true}>
                     <Image
-                        src={'/../public/vacbanner.png'}
+                        src={'/vacbanner.png'}
                         layout="fill"
                         objectFit="cover"
                         className="z-20"
@@ -39,10 +39,10 @@ export default function Nav2() {
             {/* Logo screens 750px or smaller */}
             <div className="w-screen h-auto flex justify-center">
             <div className="h-56 w-56 nav2:hidden absolute">
-                <Link href="/">
+                <Link href="/" passHref={true}>
                     <a>
                     <Image
-                        src={'/../public/vacbannerbelow.png'}
+                        src={'/vacbannerbelow.png'}
                         alt="Vashon Athletic Club logo"
                         layout="fill"
                         objectFit="contain"
