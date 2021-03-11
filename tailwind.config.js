@@ -14,12 +14,18 @@ module.exports = {
     },
     screens: {
       'nav2': '750px',
-      'burger': '1450px'
-    }
+      'burger': '1450px',
+      'med':'848px'
+    },
+    linearGradientColors: theme => theme('colors'),
+    radialGradientColors: theme => theme('colors'),
+    conicGradientColors: theme => theme('colors'),
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients')
+  ],
 }
 }

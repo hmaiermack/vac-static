@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/nav/navbar'
 import Layout from '../components/layout'
 import Card from '../components/card'
 import { faDumbbell, faComment, faDesktop } from '@fortawesome/free-solid-svg-icons'
@@ -24,9 +22,15 @@ const index = () => {
           />
           </div>
           <div className="flex flex-col justify-center items-center relative px-6 xl:px-32 z-10 w-screen">
-            <h1 className="text-left tracking-tight mt-52 nav2:mt-44">
-              <span className="block text-vacblue sm:text-vacgrey font-extrabold uppercase tracking-tighter text-6xl">Special Offer</span>
-              <span className="block text-gray-600 sm:text-white font-bold uppercase leading-6 text-2xl">Reduced rates on Group Personal Training</span>
+            <h1 className="text-left tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8">
+              <span className="block text-vacblue sm:text-vacgrey font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl">Special Offer</span>
+              <span className="block text-gray-600 sm:text-white font-bold uppercase leading-6 text-2xl sm:text-3xl">Reduced rates on Group Personal Training</span>
+              <p className="hidden sm:block text-2xl text-white max-w-prose mt-4 bg-vacpurple bg-opacity-80 p-4 rounded leading-relaxed">
+              Semi-Private Personal Training sessions are available now! Semi-Private Training package options allow you to choose 1 session, 
+              2 sessions, or 3 sessions per week. Workout among up to 5 like minded individuals in a fun, safe and supportive environment.  
+              Each class is 1 hour in length and covers fundamentals of strength training, mobility, balance, agility and core work. 
+              All abilities are welcome with scalable workouts for any level of fitness.
+              </p>
             </h1>
             {/* Info Cards */}
             <div className="flex flex-col justify-center lg:flex-row justify-self-center max-w-md md:max-w-max">
