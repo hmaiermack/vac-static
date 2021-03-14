@@ -2,7 +2,7 @@ import React from 'react'
 
 const Post = () => {
     return (
-        <div className="grid grid-cols-4 p-4 gap-8 auto-rows-min bg-gray-100 shadow-xl">
+        <div className="grid grid-cols-4 p-4 gap-8 auto-rows-min bg-gray-100 shadow-xl max-w-screen-md">
             <span className="col-start-1 bg-vacpurple text-white text-center w-40 py-3 sm:p-8 font-bold text-lg">3/10/2021</span>
 
             <span className="row-start-2 col-span-4 row-auto font-extrabold text-vacblue text-4xl p-0 m-0 border-b border-gray-400 

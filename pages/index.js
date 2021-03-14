@@ -56,7 +56,7 @@ const index = () => {
       </section>
 
       {/* Latest news */}
-      <section className="bg-vacblue text-white px-8 py-4">
+      <section className="bg-vacblue text-white px-8 py-4 flex flex-col items-center justify-center">
         <h2 className="text-4xl font-extrabold text-center mb-4">Latest News</h2>
         <Post />
       </section>

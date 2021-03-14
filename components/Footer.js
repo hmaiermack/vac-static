@@ -20,6 +20,7 @@ const Footer = () => {
             <ul className="flex flex-col justify-center items-center whitespace-nowrap">
                 <li>19120 Vashon Hwy SW</li>
                 <li>Vashon, WA 98070</li>
+                <li>(206) 463-5601</li>
             </ul>
             <ul className="flex w-full lg:w-max justify-center gap-8 text-2xl">
                 <li><FontAwesomeIcon icon={faFacebook}/></li>

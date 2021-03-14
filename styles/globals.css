@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html,
-body {
+body,
+.calendar {
   min-height: 100%;
   min-width: 100%;
   padding: 0;
@@ -179,5 +180,14 @@ a {
     margin-top: 8.6rem;
     height: 4.4rem;
     background-color: #2e3d6a;
+  }
+}
+
+@media (min-width: 768px) {
+  .amenities-list {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

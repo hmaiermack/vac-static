@@ -65,8 +65,6 @@ export default function Nav2() {
                             <li className={`${router.pathname.includes('/membership') ? `current-tab ` : ` `}member-head px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white`}>
                                 <Link href="/membership" className="relative"><a>Membership</a></Link>
                             </li>
-                            {active1 && <li><Drop2 parent="membership" onMouseEnter={() => setActive1(true)}
-                            onMouseLeave={() => setActive1(false)}/></li>}
                         </ul>
                         {/* Drop2 parent refers to menuItems index to populate Drop2 menu */}
                         <ul className="nav-tab training-list ml-2"
@@ -108,7 +106,6 @@ export default function Nav2() {
                         {/* Membership Links */}
                         <div className="py-1 flex flex-col">
                         <Link href="/membership" ><a className="text-xl">Membership</a></Link>
-                        <Link href="/equipment" ><a className="text-base ml-4">Equipment & Amenities</a></Link>
                         </div>
                         {/* PT Links */}
                         <div className="py-1 flex flex-col">
