@@ -185,6 +185,7 @@ a {
 
 @media (min-width: 768px) {
   .amenities-list {
+    min-width: 50%;
     max-width: 50%;
     display: flex;
     justify-content: center;
