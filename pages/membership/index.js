@@ -26,10 +26,11 @@ const index = () => {
 
 
 
-    const displayCards = filter.map(item => 
+    const displayCards = filter.map((item, idx) => 
         <MemberCard type={item.membership_options.membership_type} 
             price={item.membership_options.pricing_options} 
-            info={item.membership_options.membership_type_information} />
+            info={item.membership_options.membership_type_information} 
+            key={idx}/>
     )
 
     console.log('displayCards' + displayCards)

@@ -37,7 +37,7 @@ export const amenitiesInfo = [
         fitness training.`
     },
     {
-        path: '/8.jpg',
+        path: '/8.JGP',
         header: 'Cardio Floor',
         info: 'Upstairs room dedicated to cardiovascular health.'
     },
@@ -47,7 +47,7 @@ export const amenitiesInfo = [
         info: 'Upstairs room dedicated to cardiovascular health.'
     },
     {
-        path: '/10.jpg',
+        path: '/10.JPG',
         header: 'Free-Weight Room',
         info: `Dedicated room for weight training. Squat racks, 
         dumbells up to 130 lbs, barbells and more.`

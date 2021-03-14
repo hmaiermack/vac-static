@@ -14,8 +14,8 @@ const MemberCard = (props) => {
                 {props.type}
               </h3>
               <div className="flex flex-col sm:flex-row justify-center gap-8">
-              {filtered.map(item => (
-                  <div className="pt-4 ">
+              {filtered.map((item, idx) => (
+                  <div className="pt-4" key={idx}>
                                 <p className="text-5xl font-bold text-center group-hover:text-vacpurple text-vacblue uppercase">
                                 ${item[1]}<span className="text-3xl"></span>
                                </p>
