@@ -37,7 +37,7 @@ export const amenitiesInfo = [
         fitness training.`
     },
     {
-        path: '/8.JGP',
+        path: '/8.jpg',
         header: 'Cardio Floor',
         info: 'Upstairs room dedicated to cardiovascular health.'
     },
