@@ -45,7 +45,7 @@ const index = () => {
 
             {/* Info Divs */}
             <div className="container flex flex-col justify-center items-center mx-auto mt-8">
-                <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8">Equipment & Amenities</h1>
+                <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-2">Equipment & Amenities</h1>
                 <ul className="mt-1 border border-vacgrey flex flex-col mx-1 font-medium md:flex-row md:flex-wrap">
                     <li className="p-6 text-lg bg-gray-300 text-gray-700 leading-6 font-sans amenities-list">
                         Saltwater Pool and Spa heated year-round to 84-87 degrees and 104 degrees respectively.

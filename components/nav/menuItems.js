@@ -9,24 +9,24 @@ export const menuItems = {
     personal_training: [
         {
             title: '1-on-1 Personal Training',
-            path: '/personal-training/1-on-1-training',
+            path: '/personal-training/1_on_1_training',
             cName: 'dropdown-link'
         },
         {
             title: 'Semi-Private Personal Training',
-            path: '/personal-training/semi-private-training',
+            path: '/personal-training/semi_private_training',
             cName: 'dropdown-link'
         },
         {
             title: 'Free Fitness Consultation',
-            path: '/personal-training/free-consultation',
+            path: '/personal-training/free_consultation',
             cName: 'dropdown-link'
         }
     ],
     pool: [
         {
             title: 'Adult Lessons',
-            path: '/pool/adult-lessons',
+            path: '/pool/adult_lessons',
             cName: 'dropdown-link'
         },
         {
@@ -36,7 +36,7 @@ export const menuItems = {
         },
         {
             title: 'Childrens Swim Lessons',
-            path: '/pool/childrens-lessons',
+            path: '/pool/childrens_lessons',
             cName: 'dropdown-link'
         }
     ]

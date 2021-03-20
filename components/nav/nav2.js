@@ -110,16 +110,16 @@ export default function Nav2() {
                         {/* PT Links */}
                         <div className="py-1 flex flex-col">
                         <Link href="/personal-training" ><a className="text-xl">Personal Training</a></Link>
-                        <Link href="/1-on-1-training" ><a className="text-base ml-4">1-on-1 Personal Training</a></Link>
-                        <Link href="/semi-private-training" ><a className="text-base ml-4">Semi-Private Personal Training</a></Link>
-                        <Link href="/free-consultation" ><a className="text-base ml-4">Free Fitness Consultation</a></Link>
+                        <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4">1-on-1 Personal Training</a></Link>
+                        <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4">Semi-Private Personal Training</a></Link>
+                        <Link href="/personal-training/free_consultation" ><a className="text-base ml-4">Free Fitness Consultation</a></Link>
                         </div>
                         {/* Pool Links */}
                         <div className="py-1 flex flex-col">
                         <Link href="/pool" ><a className="text-xl">Pool</a></Link>
-                        <Link href="/adult-lessons" ><a className="text-base ml-4">Adult Lessons</a></Link>
+                        <Link href="/adult_lessons" ><a className="text-base ml-4">Adult Lessons</a></Link>
                         <Link href="/stingrays" ><a className="text-base ml-4">Stingrays Swim Team</a></Link>
-                        <Link href="/childrens-lessons" ><a className="text-base ml-4">Childrens Lessons</a></Link>
+                        <Link href="/childrens_lessons" ><a className="text-base ml-4">Childrens Lessons</a></Link>
                         </div>
                         {/* Other */}
                         <Link href="/schedules" ><a className="text-xl py-1">Schedules</a></Link>

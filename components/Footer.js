@@ -22,7 +22,7 @@ const Footer = () => {
                 <li>Vashon, WA 98070</li>
                 <li>(206) 463-5601</li>
             </ul>
-            <ul className="flex w-full lg:w-max justify-center gap-8 text-2xl">
+            <ul className="flex w-full lg:w-max justify-center gap-8 text-2xl flex-wrap">
                 <li><FontAwesomeIcon icon={faFacebook}/></li>
                 <li><FontAwesomeIcon icon={faYoutube}/></li>
                 <li><FontAwesomeIcon icon={faInstagram}/></li>
