@@ -10,7 +10,7 @@ const KarenInfo = () => {
             <div className="flex flex-col justify-center items-center lg:flex-row lg:mb-8">
                 <div className="h-32 w-32 relative inline-block my-4 shadow-lg rounded-full lg:w-48 lg:h-48">
                     <Image
-                    src="/karen.JPG"
+                    src="/karen.jpg"
                     alt="Karen Wollgast"
                     layout="fill"
                     objectFit="cover"
