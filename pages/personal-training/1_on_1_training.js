@@ -25,14 +25,14 @@ const oneOnOneTraining = () => {
                 <span className="block lg:hidden text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">With a Personal trainer!</span>
                 <span className="lg:block hidden text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">With a VAC Personal trainer!</span>
                 </h1>
-                <button className="w-max p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
+                <button className="w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
                     Schedule Now!
                 </button>
                 </div>
             </div>
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
                 <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
-                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
                     If you are new or returning to exercise a personal trainer can show you
                     where to begin by providing guidance, motivation, encouragement and personal attention to help you reach your goals. At Vashon Athletic Club our 
                     trainers can help you stay on top of your health by building an individualized program tailored to your needs and goals. 
@@ -54,11 +54,14 @@ const oneOnOneTraining = () => {
 
             <div className="w-screen bg-white p-16 pt-32 text-center lg:mt-40" style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw))', zIndex: '8'}}>
                 <h2 className="mr-auto ml-auto  text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose">1-ON-1 Personal Training sessions are available now! </h2>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-6">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
                     Our 1-on-1 Personal Training package options allow you to choose 1, 2, or 3 hour-long sessions per week. 
                     We boast some of the most affordable personal training rates on the island. The Vashon Athletic Club's goal is to make our training 
                     services accessible to the entirety of the Vashon community. 
                 </p>
+                <button className="max-w-screen p-4 my-12 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
+                    Schedule Now!
+                </button>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16">
                     If you'd like more in depth information about any of our personal training products or to learn more about the VAC trainers, 
                     schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. In addition, if the times available in 
@@ -66,7 +69,7 @@ const oneOnOneTraining = () => {
                     please email travis@vashonathleticclub.com to schedule an alternate time.                
                 </p>
 
-                <button className="max-w-screen p-4 mb-16 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
+                <button className="max-w-screen p-4 mb-16 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
                     Schedule a free fitness consultation today!
                 </button>
 
@@ -138,7 +141,7 @@ const oneOnOneTraining = () => {
                     </li>
                 </ul>
 
-                <button className="mt-4 mx-auto w-max p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
+                <button className="mt-4 mx-auto w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
                     Schedule Now!
                 </button>
 

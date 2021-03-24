@@ -22,24 +22,24 @@ const semiPrivateTraining = () => {
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
                 <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Semi-Private Training</span>
-                <span className="block lg:hidden text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">Group fitness, individualized</span>
+                <span className="block lg:hidden text-vacblue sm:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">Group fitness, individualized</span>
                 <span className="lg:block hidden text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">Reach your goals with like-minded individuals!</span>
                 </h1>
-                <button className="w-max p-4 lg:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
+                <button className="w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
                     Schedule Now!
                 </button>
                 </div>
             </div>
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
                 <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
-                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
                 Workout among up to 5 like minded individuals in a fun, safe and supportive environment. 
                 Each class is 1 hour in length and covers fundamentals of strength training, mobility, balance, agility and 
                 core work. All abilities are welcome with scalable workouts for any level of fitness. This Semi-Private Training structure not only 
                 allows you more training time options, but also access to all of our trainers. You can schedule different trainers 
                 and different session times whenever you want!
                 </p>
-                <button className="mt-4 mx-auto w-max p-4 lg:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase mb-16 lg:mb-40">
+                <button className="mt-4 mx-auto w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase mb-16 lg:mb-40">
                     Schedule Now!
                 </button>
             </div>
@@ -52,7 +52,7 @@ const semiPrivateTraining = () => {
                     Functional Training Center, groups of up to 5 like-minded individuals are lead in an hour long program covering all areas of physical
                     fitness by one of our Personal Trainers. With many different day and time options available we make it easy for you to hop in whenever you want!
                 </p>
-                <button className="max-w-screen mt-4 mx-auto p-4 lg:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase mb-16 lg:mb-40">
+                <button className="max-w-screen mt-4 mx-auto p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase mb-16 lg:mb-40">
                     Functional Training Center Schedule
                 </button>
             </div>
@@ -66,7 +66,7 @@ const semiPrivateTraining = () => {
                     please email travis@vashonathleticclub.com to schedule an alternate time.                
                 </p>
 
-                <button className="max-w-screen p-4 mb-16 lg:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
+                <button className="max-w-screen p-4 mb-16 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
                     Schedule a free fitness consultation today!
                 </button>
 
@@ -138,7 +138,7 @@ const semiPrivateTraining = () => {
                     </li>
                 </ul>
 
-                <button className="mt-4 mx-auto w-max p-4 lg:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
+                <button className="mt-4 mx-auto w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
                     Schedule Now!
                 </button>
 
