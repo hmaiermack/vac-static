@@ -2,8 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Layout from '../../components/layout'
 import ReactPlayer from 'react-player/lazy'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faQuestion } from '@fortawesome/free-solid-svg-icons'
 import TravisInfo from '../../components/trainer-info/TravisInfo'
 import KarenInfo from '../../components/trainer-info/KarenInfo'
 import TristanInfo from '../../components/trainer-info/TristanInfo'
@@ -39,7 +37,7 @@ const index = () => {
 
         </div>
         <div className="bg-gray-200 lg:p-8 py-8">
-            <h2 className="text-center text-4xl text-vacblue font-extrabold mb-4 uppercase">Free Fitness Consultation</h2>
+            <h1 className="text-center text-4xl text-vacblue font-extrabold mb-4 uppercase">Free Fitness Consultation</h1>
             <div className="flex flex-col lg:flex-row justify-around">
             <div className="relative justify-center mb-4 lg:mb-0 lg:w-6/12 sm:h-96 flex px-8 lg:p-0">
             <ReactPlayer url='https://www.youtube.com/watch?v=wU1hoPIKb4M' width='100%' height='100%' />
@@ -63,6 +61,34 @@ const index = () => {
             <TravisInfo />
             <KarenInfo />
             <TristanInfo />
+        </div>
+
+        <div className="flex flex-col py-8 bg-gray-200">
+            <h1 className="text-center text-4xl text-vacblue font-extrabold uppercase lg:mb-4">Our Training Options</h1>
+            <div className="flex flex-col md:flex-row justify-around w-full items-center ">
+                <div className="bg-white p-4 mt-4 mb-4 text-center md:flex-grow-0 md:w-5/12 w-9/12">
+                    <h2 className="uppercase font-bold text-2xl text-vacblue mb-4 lg:text-4xl">Semi-Private Training</h2>
+                    <p className="text-left text-gray-700 leading-relaxed text-xl">
+                        Workout among up to 5 like minded individuals in a fun, safe and supportive environment.  
+                        Training covers fundamentals of strength training, mobility, balance, agility and core work. 
+                    </p>
+                    <button className="mt-4 p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
+                        More Info
+                    </button>
+
+                </div>
+                <div className="bg-white p-4 mt-4 text-center md:flex-grow-0 md:w-5/12 mb-4 w-9/12">
+                    <h2 className="uppercase font-bold text-2xl text-vacblue mb-4 lg:text-4xl">Personal Training</h2>
+                    <p className="text-left text-gray-700 leading-relaxed text-xl">
+                        Get the guidance, motivation, encouragement, and personal attention you need to reach your goals with 
+                        a personal trainer who will tailor your program to meet your individual needs.
+                    </p>
+                    <button className="mt-4 p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
+                        More Info
+                    </button>
+
+                </div>
+            </div>
         </div>
         </Layout>
     )

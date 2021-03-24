@@ -39,7 +39,7 @@ const KarenInfo = () => {
 </p>
             </div>
 
-            <div className="flex flex-col md:flex-row md:justify-around">
+            <div className="flex flex-col md:flex-row md:justify-around mt-16">
                 <div className="mb-4 md:mb-0 md:w-5/12">
                     <h2 className="uppercase font-bold text-lg text-vacblue mb-4 lg:text-xl">Specialties</h2>
                     <ul className="text-gray-700 text-left p-4 bg-gray-200 shadow-md lg:bg-white">
