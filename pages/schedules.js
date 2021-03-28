@@ -1,15 +1,22 @@
 import React from 'react'
-import LandCalendar from '../components/LandCalendar'
-import PoolCalendar from '../components/PoolCalendar'
 import Layout from '../components/layout'
+import dynamic from "next/dynamic";
+
+const NoSSRLand = dynamic(() => import("../components/LandCalendar"), {
+    ssr: false,
+  });
+
+const NoSSRPool = dynamic(() => import("../components/PoolCalendar"), {
+    ssr: false,
+  });
 
 
 const schedules = () => {
     return (
         <Layout >
             <div className="container mt-52 w-11/12 p-8 mx-auto">
-            <LandCalendar />
-            <PoolCalendar />
+            <NoSSRLand />
+            <NoSSRPool />
             </div>
         </Layout>
 
