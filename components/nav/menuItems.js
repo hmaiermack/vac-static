@@ -25,18 +25,13 @@ export const menuItems = {
     ],
     pool: [
         {
-            title: 'Adult Lessons',
-            path: '/pool/adult_lessons',
-            cName: 'dropdown-link'
-        },
-        {
             title: 'Stringrays Swim Team',
             path: '/pool/stingrays',
             cName: 'dropdown-link'
         },
         {
-            title: 'Childrens Swim Lessons',
-            path: '/pool/childrens_lessons',
+            title: 'Swim Lessons',
+            path: '/pool/swim_lessons',
             cName: 'dropdown-link'
         }
     ]

@@ -1,15 +1,17 @@
 import React from 'react'
-// import PoolCalendar from '../components/PoolCalendar'
-// import "@fullcalendar/common/main.min.css";
-// import "@fullcalendar/daygrid/main.min.css";
-// import "@fullcalendar/list/main.min.css";
+import LandCalendar from '../components/LandCalendar'
+import PoolCalendar from '../components/PoolCalendar'
+import Layout from '../components/layout'
 
 
 const schedules = () => {
     return (
-        <div className="">
-            
-        </div>
+        <Layout >
+            <div className="container mt-52 w-11/12 p-8 mx-auto">
+            <LandCalendar />
+            <PoolCalendar />
+            </div>
+        </Layout>
 
     )
 }
