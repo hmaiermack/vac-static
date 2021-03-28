@@ -118,7 +118,7 @@ export default function Nav2() {
                         <div className="py-1 flex flex-col">
                         <Link href="/pool" ><a className="text-xl">Pool</a></Link>
                         <Link href="/pool/stingrays" ><a className="text-base ml-4">Stingrays Swim Team</a></Link>
-                        <Link href="/pool/swim_lessons_lessons" ><a className="text-base ml-4">Swim Lessons</a></Link>
+                        <Link href="/pool/swim_lessons" ><a className="text-base ml-4">Swim Lessons</a></Link>
                         </div>
                         {/* Other */}
                         <Link href="/schedules" ><a className="text-xl py-1">Schedules</a></Link>
