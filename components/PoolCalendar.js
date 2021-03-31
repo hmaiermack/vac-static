@@ -27,7 +27,7 @@ const PoolCalendar = () => {
 
     return (
         <div className="w-11/12 mx-auto text-gray-700 calendar my-16">
-            <h1 className="text-2xl text-center text-vacblue font-extrabold uppercase">Pool Class Schedule</h1>
+            <h1 className="text-2xl text-center text-vacblue font-extrabold uppercase">Pool Schedule</h1>
             {width >= 1024 ? 
                 (<FullCalendar
                     plugins={[ timeGridPlugin, googleCalendarPlugin ]}

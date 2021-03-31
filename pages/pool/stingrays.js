@@ -5,7 +5,7 @@ import { Formik, Field, Form } from 'formik';
 import emailjs from 'emailjs-com'
 import {init} from 'emailjs-com'
 
-const stingrays = () => {
+const stingrays = ({data}) => {
 
     const [submitted, setSubmitted] = useState(false)
 
@@ -36,14 +36,20 @@ const stingrays = () => {
 
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                     <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
-                        <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-2 md:mb-0">Stingrays</span>
-                        <span className="block text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">Swim Team</span>
+                        <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
+                        <span className="block text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
                     </h1>
                 </div>
             </div>
 
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">USA Swimming Certified</h2>
+                <Image alt="Stingrays logo"
+                src="/stingray.png"
+                height={500}
+                width={500} 
+                layout="intrinsic"
+                />
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase mb-8">USA Swimming Certified</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
                 Vashon Stingrays is a year-round USA swimming competitive team. We are part of the islands premier Vashon Athletic Club training 
                 center.  Our team has the island’s most sought-after and experienced professional coaches and instructors.  Three of our coaches 
@@ -193,5 +199,18 @@ const stingrays = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const url = process.env.NEXT_PUBLIC_API_URL;
+    const res = await  fetch(`${url}/swim-team`);
+    const data = await res.json();
+
+    return {
+        props: {
+            data
+        }
+    }  
+}
+
 
 export default stingrays

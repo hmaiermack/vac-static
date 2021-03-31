@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 import Image from 'next/image'
+import Button from '../../components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestion, faCircle, faHeartbeat, faUserFriends, faClipboard, faSwimmer, faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
@@ -25,15 +26,13 @@ const freeConsultation = () => {
                 <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
                 <span className="block text-white font-extrabold uppercase tracking-tighter text-4xl med:text-8xl leading-none mb-8 md:mb-0">Free Fitness Consultation</span>
                 </h1>
-                <button className="w-max p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
-                    Schedule Now!
-                </button>
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule today!"/>
                 </div>
             </div>
 
-            <div className="p-8 w-screen">
+            <div className="p-8 w-screen text-center">
             <h1 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Why Schedule a Fitness Consultation?</h1>
-                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16">Identifying your goals and assessing your fitness level is the first step towards any wellness endeavor. 
+                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 text-left">Identifying your goals and assessing your fitness level is the first step towards any wellness endeavor. 
                     A Fitness Consultation is a complimentary consultation with a fitness professional, designed to help you 
                     understand what your needs and goals are for building a healthy lifestyle. This appointment offers a strategic 
                     plan for fitness and nutrition based on your individual needs to get you started achieving your goals.
@@ -82,6 +81,7 @@ const freeConsultation = () => {
                         <span className="text-center">Learn about our swim programs and group fitness classes</span>
                     </li>
                 </ul>
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
             </div>
         </Layout>
     )

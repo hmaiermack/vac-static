@@ -1,39 +1,15 @@
 import React from 'react'
 import Layout from '../../components/layout'
 import MemberCard from '../../components/MemberCard'
-import { useEffect, useState } from 'react'
 import ImageGallery from '../../components/ImageGallery'
 
-const index = () => {
-     const [membershipInfo, setMembershipInfo] = useState([])
-     console.log(membershipInfo)
-
-    useEffect(() => {
-
-        const fetchData = async () => {
-            const res = await  fetch('http://localhost:1337/membership-info-and-pricings');
-            const data = await res.json();
-            setMembershipInfo(data)
-        }
-
-      fetchData();
-
-
-
-    }, [])
-
-    const filter = membershipInfo.filter(item => item.membership_options.membership_type !== "Senior 65+")
-
-
-
-    const displayCards = filter.map((item, idx) => 
+const index = ({data}) => {
+    const displayCards = data.map((item, idx) => 
         <MemberCard type={item.membership_options.membership_type} 
             price={item.membership_options.pricing_options} 
             info={item.membership_options.membership_type_information} 
             key={idx}/>
     )
-
-    console.log('displayCards' + displayCards)
 
     return (
         <Layout>
@@ -77,73 +53,31 @@ const index = () => {
             </div>
             
             {/* Membership cards and pricing */}
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center mt-8">
                 <h1 className="text-vacblue mt-4 text-center">
                     <span className="uppercase text-4xl font-extrabold text-center leading-8">Membership Pricing</span>
                     <br></br>
-                    <span className="uppercase text-sm font-bold leading-8">Save 10% when you sign up for a year!</span>
+                    <span className="uppercase text-sm font-bold leading-8">Save 10% when you sign up in advance for an annual membership!</span>
                     </h1>
                 <div className="container flex flex-wrap justify-center ">
-                {displayCards}
-                {/* Senior Card */}
-                <div className="w-full min-w-min p-4 lg:w-1/3 plan-card f">
-                    <label className="flex flex-col shadow-lg group relative hover:shadow-2xl bg-white">
-                        <div className="w-full px-4 py-6 card-section-1">
-                        <h3 className="mx-auto text-base font-semibold text-center underline text-vacblue group-hover:text-vacpurple">
-                            Senior 65+
-                        </h3>
-                        <div className="flex flex-col sm:flex-row justify-center sm:gap-8 sm:items-end mt-4">
-                            <p className="text-5xl font-bold text-center group-hover:text-vacpurple text-vacblue uppercase">
-                                $54<span className="text-3xl"></span>
-                            </p>
-                            <p className=" text-lg text-center uppercase group-hover:text-vacpurple text-vacblue whitespace-nowrap">
-                            Single Full Club monthly
-                            </p>
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row justify-center sm:gap-8 sm:items-end mt-4">
-                            <p className="text-5xl font-bold text-center group-hover:text-vacpurple text-vacblue uppercase">
-                                $42<span className="text-3xl"></span>
-                            </p>
-                            <p className=" text-lg text-center uppercase group-hover:text-vacpurple text-vacblue whitespace-nowrap">
-                            Single Pool Only monthly
-                            </p>
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row justify-center sm:gap-8 sm:items-end mt-4">
-                            <p className="text-5xl font-bold text-center group-hover:text-vacpurple text-vacblue uppercase">
-                                $76<span className="text-3xl"></span>
-                            </p>
-                            <p className="text-lg text-center uppercase group-hover:text-vacpurple text-vacblue whitespace-nowrap">
-                            Couple Full Club monthly
-                            </p>
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row justify-center sm:gap-8 sm:items-end mt-4">
-                            <p className="text-5xl font-bold text-center group-hover:text-vacpurple text-vacblue uppercase">
-                                $59<span className="text-3xl"></span>
-                            </p>
-                            <p className="text-lg text-center uppercase group-hover:text-vacpurple text-vacblue whitespace-nowrap">
-                            Couple Pool Only monthly
-                            </p>
-                        </div>
-
-                        </div>
-                        <div
-                        className="flex flex-col items-center justify-center w-full h-full py-6 bg-vacblue"
-                        >
-                        <p className="text-xl text-white text-center">
-                            Access to everything the corresponding membership would get.
-                        </p>
-                        </div>
-                    </label>
-                </div>
-
+                    {displayCards}
                 </div>
             </div>
             </div>
         </Layout>
     )
+}
+
+export async function getStaticProps() {
+    const url = process.env.NEXT_PUBLIC_API_URL;
+    const res = await  fetch(`${url}/membership-info-and-pricings`);
+    const data = await res.json();
+
+    return {
+        props: {
+            data
+        }
+    }  
 }
 
 export default index

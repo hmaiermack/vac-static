@@ -28,12 +28,14 @@ export default function Nav2() {
             {/* Logo screens 750px or larger */}
             <div className="hidden nav2:absolute h-48 nav2:inline-flex left-5" style={{width: '44rem'}}>
                 <Link href="/" passHref={true}>
+                    <a>
                     <Image
                         src={'/vacbanner.png'}
                         layout="fill"
                         objectFit="cover"
                         className="z-20"
                     />
+                    </a>
                 </Link>
             </div>
             {/* Logo screens 750px or smaller */}
@@ -88,6 +90,7 @@ export default function Nav2() {
                         </ul>   
                         <li className={`${router.pathname === `/schedules` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white schedules-head`}><Link href="/schedules"><a>Schedules</a></Link></li>    
                         <li className={`${router.pathname === `/news` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/news"><a>News</a></Link></li>
+                        <li className={`${router.pathname === `/covid` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/covid"><a>COVID-19 Guidelines</a></Link></li>
                     </ul>
                 </div>
                 {/* Mobile Menu */}
@@ -123,6 +126,7 @@ export default function Nav2() {
                         {/* Other */}
                         <Link href="/schedules" ><a className="text-xl py-1">Schedules</a></Link>
                         <Link href="/news" ><a className="text-xl">News</a></Link>
+                        <Link href="/covid" ><a className="text-xl">COVID-19 Guidelines</a></Link>
                         </div>
                     </div>
                 </div>

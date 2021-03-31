@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../../components/layout'
 import Image from 'next/image'
+import Button from '../../components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBullseye, faCircle, faClipboard, faSwimmer, faDumbbell, faNotesMedical, faRunning, faUmbrellaBeach, faAlignJustify } from '@fortawesome/free-solid-svg-icons'
 
-const oneOnOneTraining = () => {
+const oneOnOneTraining = ({data}) => {
     return (
         <Layout >
             <div className="h-screen flex">
@@ -21,13 +22,9 @@ const oneOnOneTraining = () => {
 
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
-                <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Maximize your Workouts</span>
-                <span className="block lg:hidden text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">With a Personal trainer!</span>
-                <span className="lg:block hidden text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">With a VAC Personal trainer!</span>
+                <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
+                <span className="block text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
                 </h1>
-                <button className="w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
-                    Schedule Now!
-                </button>
                 </div>
             </div>
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
@@ -59,19 +56,16 @@ const oneOnOneTraining = () => {
                     We boast some of the most affordable personal training rates on the island. The Vashon Athletic Club's goal is to make our training 
                     services accessible to the entirety of the Vashon community. 
                 </p>
-                <button className="max-w-screen p-4 my-12 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
-                    Schedule Now!
-                </button>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16">
+
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
+
+
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mt-4 mb-16 lg:mb-40">
                     If you'd like more in depth information about any of our personal training products or to learn more about the VAC trainers, 
                     schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. In addition, if the times available in 
                     the Fitness Consultation, Semi-Private Training or Personal Training calendar are incompatible with your schedule, 
                     please email travis@vashonathleticclub.com to schedule an alternate time.                
                 </p>
-
-                <button className="max-w-screen p-4 mb-16 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2 lg:mb-40" >
-                    Schedule a free fitness consultation today!
-                </button>
 
                 
             </div>
@@ -140,15 +134,23 @@ const oneOnOneTraining = () => {
                         </span>
                     </li>
                 </ul>
-
-                <button className="mt-4 mx-auto w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase">
-                    Schedule Now!
-                </button>
-
-
             </div>
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const url = process.env.NEXT_PUBLIC_API_URL;
+    const res = await  fetch(`${url}/one-on-one-training`);
+    console.log(res)
+    const data = await res.json();
+
+    return {
+        props: {
+            data
+        }
+    }  
+}
+
 
 export default oneOnOneTraining

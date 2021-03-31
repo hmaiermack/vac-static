@@ -12,7 +12,7 @@ const ImageGallery = () => {
 
     for (let i=0; i < amenitiesInfo.length; i += 1) {
         slides.push(
-            <SwiperSlide key={`slide-${i}`} wrapperTag="li" className="relative">
+            <SwiperSlide key={`slide-${i}`} wrappertag="li" className="relative">
                 <div className="bg-vacpurple bg-opacity-80 z-10 flex absolute flex-col p-4">
                 <h1 className="  text-gray-200 font-extrabold text-4xl left-4 tracking-tight">{amenitiesInfo[i].header}</h1>
                 <span className="text-gray-200 max-w-prose">{amenitiesInfo[i].info}</span>

@@ -5,7 +5,7 @@ import { Formik, Field, Form } from 'formik';
 import emailjs from 'emailjs-com'
 import {init} from 'emailjs-com'
 
-const childrensLessons = () => {
+const childrensLessons = ({data}) => {
     const [submitted, setSubmitted] = useState(false)
 
     init("user_2T5iH84OTntfWJrsjQZ1W");
@@ -35,8 +35,8 @@ const childrensLessons = () => {
 
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                     <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
-                        <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-2 md:mb-0">Swim Lessons</span>
-                        <span className="block text-vacblue font-extrabold uppercase leading-6 text-3xl med:text-5xl">all ages welcome!</span>
+                        <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
+                        <span className="block text-vacblue font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
                     </h1>
                 </div>
             </div>
@@ -57,7 +57,11 @@ const childrensLessons = () => {
             </div>
 
             <div className="text-center bg-gray-200 w-screen p-16 pt-32" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw', zIndex: '9'}}>
-                <h2 className="mr-auto ml-auto text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose lg:mt-40">Lil Rays</h2>
+                <Image alt="Stingrays logo"
+                src="/lilrays.png"
+                height={350}
+                width={350} 
+                layout="intrinsic"/>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
                     Our Stingray Swim programs teach the very basic foundations to begin constructing a stroke. We communicate the 
                     understanding of body position, rhythm, hydrodynamics and more through unique and playful ways so your kids 
@@ -231,5 +235,18 @@ const childrensLessons = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const url = process.env.NEXT_PUBLIC_API_URL;
+    const res = await  fetch(`${url}/swim-lessons`);
+    const data = await res.json();
+
+    return {
+        props: {
+            data
+        }
+    }  
+}
+
 
 export default childrensLessons

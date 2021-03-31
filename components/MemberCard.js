@@ -5,7 +5,6 @@ const MemberCard = (props) => {
     const price = Object.entries(props.price)
     price.shift()
     const filtered = price.filter(item => item[1] != null)
-    console.log(filtered)
     return (
         <div className="w-full min-w-min p-4 lg:w-1/3 plan-card f ">
           <label className="flex flex-col shadow-lg group relative hover:shadow-2xl bg-white">

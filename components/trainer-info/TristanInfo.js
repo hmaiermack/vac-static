@@ -21,8 +21,7 @@ const TristanInfo = () => {
                     <h1 className=" text-vacblue text-2xl font-extrabold lg:text-4xl">Tristan Carbery</h1>
                     <h2 className="uppercase font-bold text-lg text-gray-700 lg:text-2xl">Personal Trainer</h2>
                     <div className="flex justify-center text-xl ">
-                        <FontAwesomeIcon icon={faPhone} className="mr-4 cursor-pointer"/>
-                        <FontAwesomeIcon icon={faEnvelope} className=" ml-4 cursor-pointer"/>
+                    tristan@vashonathleticclub.com
                     </div>
                 </div>
             </div>

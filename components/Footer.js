@@ -21,13 +21,11 @@ const Footer = () => {
                 <li>19120 Vashon Hwy SW</li>
                 <li>Vashon, WA 98070</li>
                 <li>(206) 463-5601</li>
+                <li>info@vashonathleticclub.com</li>
             </ul>
             <ul className="flex w-full lg:w-max justify-center gap-8 text-2xl flex-wrap">
-                <li><FontAwesomeIcon icon={faFacebook}/></li>
-                <li><FontAwesomeIcon icon={faYoutube}/></li>
-                <li><FontAwesomeIcon icon={faInstagram}/></li>
-                <li><FontAwesomeIcon icon={faPhone}/></li>
-                <li><FontAwesomeIcon icon={faEnvelope}/></li>
+                <li><a href="https://www.facebook.com/VashonAthleticClub/"><FontAwesomeIcon icon={faFacebook}/></a></li>
+                <li><a href="https://www.instagram.com/vashonathleticclub/"><FontAwesomeIcon icon={faInstagram}/></a></li>
             </ul>
         </div>
     )
