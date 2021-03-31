@@ -19,7 +19,7 @@ const index = () => {
                     src="/vacsplash.jpg"
                     layout="fill"
                     objectFit="cover"
-                    quality={100} 
+                    priority={true}
                 />
                 </div>
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
@@ -48,7 +48,7 @@ const index = () => {
               ensure you stay strong, healthy and connected to your VAC community from the comfort of your home.
                 Up to 4 virtual training sessions are available to book throughout the week for as little as $96 per month!" icon="desktop"
                 button="learn more"/>
-              <Card header="Free Fitness Consultation" icon="comment" body="If you'd like more in depth information 
+              <Card header="Free Fitness Consultation" icon="address-book" body="If you'd like more in depth information 
               about any of these options or to learn more about the VAC trainers, schedule a Fitness Consultation
               with our Personal Training Director, Erika Anderson
                 erika@vashonathleticclub.com" button="Free Consultation"/>

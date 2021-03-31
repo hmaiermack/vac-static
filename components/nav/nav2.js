@@ -34,6 +34,7 @@ export default function Nav2() {
                         layout="fill"
                         objectFit="cover"
                         className="z-20"
+                        priority={true}
                     />
                     </a>
                 </Link>
@@ -49,6 +50,7 @@ export default function Nav2() {
                         layout="fill"
                         objectFit="contain"
                         className="z-20"
+                        priority={true}
                     />
                     </a>
                 </Link>
