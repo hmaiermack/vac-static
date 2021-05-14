@@ -67,13 +67,14 @@ const semiPrivateTraining = ({data}) => {
                 
             </div>
 
+
             <div className="p-8 w-screen bg-gray-200 text-center" style={{clipPath: 'polygon(0 0, 100% calc(100% -10vw), 100% 100%, 0 100%)', zIndex: '7', marginTop: '-10vw'}}>
             <h2 className="mr-auto ml-auto  text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose mt-24 lg:mt-44 ">Why train with a VAC Personal Trainer? </h2>
                 <ul className="md:flex md:flex-row md:justify-center md:flex-wrap md:items-start text-center p-4 text-xl text-gray-700">
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16 ">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faBullseye} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faBullseye} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Feeling stuck? 
@@ -81,18 +82,18 @@ const semiPrivateTraining = ({data}) => {
                         </span>
                         </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faNotesMedical} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faNotesMedical} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Medical issues or injuries? Our knowledgeable trainers have experience working with a wide variety of challenges.
                         </span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faClipboard} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faClipboard} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Do you have a specific goal but aren’t sure how to reach it? 
@@ -100,9 +101,9 @@ const semiPrivateTraining = ({data}) => {
                         </span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faRunning} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faRunning} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Want fun and challenging exercises? Do you have a sports specific 
@@ -111,9 +112,9 @@ const semiPrivateTraining = ({data}) => {
                     </span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faUmbrellaBeach} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faUmbrellaBeach} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Special occasion coming up? Look and feel your best for summer vacation, 
@@ -121,9 +122,9 @@ const semiPrivateTraining = ({data}) => {
                         </span>
                     </li>
                     <li className="flex flex-col justify-center items-center md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faAlignJustify} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faAlignJustify} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">
                             Need a workout overhaul or a quick jump start? Our fitness staff can 

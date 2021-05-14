@@ -39,44 +39,44 @@ const freeConsultation = () => {
                 </p>
                 <ul className="md:flex md:flex-row md:justify-center md:flex-wrap md:items-start text-center p-4 text-xl text-gray-700">
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16 ">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faQuestion} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faQuestion} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Discover what motivates you—what is your “why”?</span>
                         </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faHeartbeat} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faHeartbeat} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Establish your fitness level by learning a few fundamental movement patterns</span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faClipboard} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faClipboard} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Receive expert fitness recommendations and establish a plan</span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faUserFriends} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faUserFriends} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Get to know our Personal Trainers</span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faDumbbell} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faDumbbell} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Explore one-on-one and semi-private training options</span>
                     </li>
                     <li className="flex flex-col justify-center items-center md:w-2/6 md:px-8">
-                        <span className="fa-layers w-20 h-20 mb-4">
+                        <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
-                            <FontAwesomeIcon icon={faSwimmer} className="text-white fa-2x"/>
+                            <FontAwesomeIcon icon={faSwimmer} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
                         <span className="text-center">Learn about our swim programs and group fitness classes</span>
                     </li>

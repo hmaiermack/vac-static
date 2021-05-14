@@ -11,6 +11,7 @@ const index = ({data}) => {
             key={idx}/>
     )
 
+
     return (
         <Layout>
             <div className="bg-gray-200">
@@ -72,6 +73,7 @@ export async function getStaticProps() {
     const url = process.env.NEXT_PUBLIC_API_URL;
     const res = await  fetch(`${url}/membership-info-and-pricings`);
     const data = await res.json();
+
 
     return {
         props: {
