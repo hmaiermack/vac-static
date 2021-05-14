@@ -11,7 +11,7 @@ const stingrays = ({data}) => {
 
     init("user_2T5iH84OTntfWJrsjQZ1W");
 
-    const sendEmail= (templateValues) => {
+    const sendEmail = (templateValues) => {
         
         emailjs.send('service_c2wv5qc', 'swim', templateValues)
             .then(() => setSubmitted(true),
@@ -49,24 +49,22 @@ const stingrays = ({data}) => {
                 width={500} 
                 layout="intrinsic"
                 />
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase mb-8">USA Swimming Certified</h2>
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase mb-8">YEAR-ROUND COMPETITIVE TEAM</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
-                Vashon Stingrays is a year-round USA swimming competitive team. We are part of the islands premier Vashon Athletic Club training 
-                center.  Our team has the island’s most sought-after and experienced professional coaches and instructors.  Three of our coaches 
-                each have over 30 years of experience in coaching, instructing and competitive swimming.  Stingrays are a part of USA Swimming and our 
-                staff includes accomplished support coaches and accredited and certified personal in-house trainers. 
+                Vashon Stingrays is a year-round USA Swimming competitive team. We are part of the premier Vashon Athletic Club training center. 
+                Our Head Coach has over 30 years of experience in instruction and competitive swimming. Our staff also includes support coaches 
+                and certified VAC Personal Trainers. The Stingray Swim Team practices all year. Practice is held at the VAC indoor pool during the 
+                school year, and the outdoor 25 yard pool at the Vashon Golf and Swim Club in the summer months.
                 </p>
             </div>
 
             <div className="text-center bg-gray-200 w-screen p-16 pt-32">
-                <h2 className="mr-auto ml-auto text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose lg:mt-40">Competitive Swimming for all levels</h2>
+                <h2 className="mr-auto ml-auto text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose lg:mt-40">COMPETITION FOR ALL LEVELS</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
-                We encourage parents to choose this program because of the continuity and the professional, knowledgeable approach to 
-                training throughout their age group. Competitions occur year-round to meet the needs of every level of swimmer in our swim programs. 
-                The Stingray Competitive team participates in USA Swim age group meets throughout the year. Our youngest swimmers may participate for 
-                fun and for the experience. The Stingray Swim Team runs year round, practicing at the indoor pool at the VAC and outdoor at the 25 yard 
-                pool at the Vashon Golf and Swim Club in the summer. We hold team clinics and private practices throughout the year, participating in
-                regional clinics with Olympic trainers and athletes. 
+                The Competitive Swim Team encompasses the Stroke School and the "Senior" levels. Competitions occur year-round to meet the needs 
+                of every level of swimmer in our programs.  The Stingrays competitive team participates in USA Swim age group meets 
+                throughout the year. Our youngest swimmers can participate in these meets for the experience if they desire. Pricing discounts 
+                for VAC Members. 
                 </p>
             </div>
 
@@ -76,7 +74,7 @@ const stingrays = ({data}) => {
                         Information Form
                     </span>
                     <span className="block md:text-xl text-gray-700 leading-relaxed">
-                        If you are interested in any of our swimming lessons or teams, please fill out the form below and we will contact you!
+                        If you are interested in any of our swim programs, please fill out the form below and we will contact you!
                     </span>
                 </h1>
 
@@ -91,7 +89,7 @@ const stingrays = ({data}) => {
                         email: '',
                         numOfSwimmers:'',
                         swimmerAges: '',
-                        isMember: '',
+                        phone: '',
                         interests: []
                     }}
                     onSubmit={async (values) => {
@@ -115,6 +113,14 @@ const stingrays = ({data}) => {
                             className="appearance-none block w-9/12 bg-gray-200 text-gray-700 
                             rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-300"/>
                             </div>
+
+                            <div className="w-full flex-col flex items-center">
+                                <label htmlFor="phone" className="block uppercase tracking-wide text-gray-700 font-bold mb-2">Phone Number</label>
+                                <Field id="phone" name="phone" placeholder="123-456-1234" 
+                                className="appearance-none block w-9/12 bg-gray-200 text-gray-700 
+                                rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-300"/>
+                                </div>
+
                         </div>
                             <div className="flex flex-col md:flex-row w-full">
                                 <div className="w-full flex-col flex items-center">
@@ -132,21 +138,6 @@ const stingrays = ({data}) => {
                                 </div>
                             </div>
 
-                            <span id="my-radio-group" className="block uppercase tracking-wide text-gray-700 font-bold mb-2">Are you a VAC Member?</span>
-                                <div role="group" aria-labelledby="my-radio-group" className="flex justify-center w-screen mb-2">
-                                    <label className="text-gray-700 mr-4">
-                                    <Field type="radio" name="isMember" value="yes" className="mr-2 leading-tight" />
-                                    Yes
-                                    </label>
-                                    <label className="text-gray-700 mr-4">
-                                    <Field type="radio" name="isMember" value="no" className="mr-2 leading-tight"/>
-                                    No
-                                    </label>
-                                    <label className="text-gray-700 ">
-                                    <Field type="radio" name="isMember" value="soon" className="mr-2 leading-tight"/>
-                                    Joining Soon
-                                    </label>
-                            </div>
 
                             <span id="interests" className="block uppercase tracking-wide text-gray-700 font-bold mb-2">What are you interested in?</span>
                                 <div role="group" aria-labelledby="interests" className="flex flex-wrap justify-around items-start md:px-4">
@@ -169,10 +160,6 @@ const stingrays = ({data}) => {
                                     <label className="w-5/12 md:w-max lg:mr-4">
                                     <Field type="checkbox" name="interests" value="Competitive Team" className="mr-2 md:mr-1"/>
                                     Competitive Team
-                                    </label>
-                                    <label className="w-5/12 md:w-max mb-2 lg:mr-4">
-                                    <Field type="checkbox" name="interests" value="Dryland Training" className="mr-2 md:mr-1"/>
-                                    Dryland Training
                                     </label>
                                     <label className="md:w-max">
                                     <Field type="checkbox" name="interests" value="Rockfins Adult Team" className="mr-2 md:mr-1"/>

@@ -27,23 +27,24 @@ const TravisInfo = () => {
             </div>
             <div className="text-gray-700 leading-relaxed text-left flex flex-col items-center lg:text-xl lg:leading-loose">
             <p className="mb-4 max-w-prose">
-            Travis has had two ever-present passions in his life: physical fitness and animals. 
-            As a thirteen year old kid he was doing one of three things: studying animals in the wild, lifting weights in the gym, and studying for school. 
-            Little changed over time. 
-            The animal lover passion led him all  the way to a doctorate in veterinary medicine specializing in radiation oncology. The fitness
-            passion led all the way to the strength sport of powerlifting. Somewhere in between, Travis found the calling of personal training.
-            </p>
-
-            <p className="mb-4 max-w-prose">
-            With his scientific background, knowledge of anatomy and physiology, passion for sports and fitness, and commitment to helping
-             others become healthier versions of themselves, Travis has the perfect combination of traits for personal training.
+            Travis has had two ever-present passions in his life: physical fitness and animals. As a thirteen year old
+            kid he was doing one of three things: investigating animals in the wild, lifting weights in the gym, and
+            studying for school. Little has changed over time. A keen interest in biology led him to a doctorate in
+            veterinary medicine specializing in radiation oncology. The fitness passion led him to the strength sport
+            of powerlifting. Somewhere in between, Travis discovered his love for personal training. With his
+            scientific background, knowledge of anatomy and physiology, passion for sports and fitness, and
+            commitment to helping others become healthier versions of themselves, Travis has the perfect
+            combination of traits for personal training.
             </p>
 
             <p className="max-w-prose">
-            Throughout his career he has assumed numerous and varied roles as a teacher and guide, always enjoying the chance to share
-             knowledge with others. His approach to personal training draws on these experiences, guiding and motivating clients
-              to more active and healthy lifestyles through individualized exercise programs. His special interests 
-              include the benefits of resistance training for all age groups and fitness levels.
+            Throughout his life he has assumed numerous and varied
+            roles as a teacher and guide, always enjoying the chance to share knowledge with others. His approach
+            to personal training draws on these experiences, guiding and motivating clients to more active and
+            healthy lifestyles through individualized exercise programs. His special interests include the benefits of
+            resistance training for all age groups and fitness levels with emphasis on correct form and safety. As the
+            Personal Training Director at the Vashon Athletic Club, Travis strives for every member to have the best
+            possible experience through their unique fitness journey.
             </p>
             </div>
 
@@ -53,7 +54,7 @@ const TravisInfo = () => {
                     <ul className="text-gray-700 text-left p-4 bg-gray-200 shadow-md lg:bg-white">
                         <li className="mb-2">Functional Strength Training</li>
                         <li className="mb-2">Weight Management</li>
-                        <li className="mb-2">Powerlifting Training</li>
+                        <li className="mb-2">Powerlifting Coach</li>
                         <li className="mb-2">TRX</li>
                         <li className="mb-2">Kettlebell Training</li>
                         <li>Group Fitness - HIIT Training</li>
@@ -66,7 +67,6 @@ const TravisInfo = () => {
                         <li className="mb-2">B.S. Biology</li>
                         <li className="mb-2">M.S. Environmental and Radiological Health Sciences</li>
                         <li className="mb-2">Doctor Veterinary Medicine</li>
-                        <li>Candidate for National Strength and Conditioning Association</li>
                     </ul>
                 </div>
             </div>

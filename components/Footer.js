@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -22,6 +23,7 @@ const Footer = () => {
                 <li>Vashon, WA 98070</li>
                 <li>(206) 463-5601</li>
                 <li>info@vashonathleticclub.com</li>
+                <li><Link href="/privacy">Privacy Policy</Link></li>
             </ul>
             <ul className="flex w-full lg:w-max justify-center gap-8 text-2xl flex-wrap">
                 <li><a href="https://www.facebook.com/VashonAthleticClub/"><FontAwesomeIcon icon={faFacebook}/></a></li>

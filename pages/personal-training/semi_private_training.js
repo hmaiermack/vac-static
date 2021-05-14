@@ -29,13 +29,17 @@ const semiPrivateTraining = ({data}) => {
                 </div>
             </div>
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Structured and guided workouts on a
+                    flexible schedule</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
-                Workout among up to 5 like minded individuals in a fun, safe and supportive environment. 
-                Each class is 1 hour in length and covers fundamentals of strength training, mobility, balance, agility and 
-                core work. All abilities are welcome with scalable workouts for any level of fitness. This Semi-Private Training structure not only 
-                allows you more training time options, but also access to all of our trainers. You can schedule different trainers 
-                and different session times whenever you want!
+                Exercise with up to 4 other individuals under the
+                guidance of a personal trainer in a fun, safe, and supportive environment. All
+                abilities are welcome with scalable workouts for any level of fitness; however, a
+                basic level of physical ability and mobility is necessary. Each session is 1 hour in
+                length and takes place in our bright and spacious Functional Training Center.” 
+                 New paragraph: “Sessions utilize various types of exercises, equipment, and
+                workout routines. Elements of strength, endurance, cardio, mobility, balance,
+                agility, and/or core training may be included in any class.
                 </p>
                 <Button href="https://vacpersonalfitnesstraining.as.me/schedule.php" text="Schedule Now!" />
                 <div className="py-8 lg:py-20"></div>
@@ -44,10 +48,11 @@ const semiPrivateTraining = ({data}) => {
             <div className="text-center bg-gray-200 w-screen p-16 pt-32" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw', zIndex: '9'}}>
                 <h2 className="mr-auto ml-auto text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose lg:mt-40">Our VAC Personal Trainers can maximize your workouts and make it easier to reach your goals!</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
-                    Semi-Private Training package options allow you to choose 1 session, 2 sessions, or 3 sessions per week. Ranging from 
-                    $27 to $33 per session, Semi-Private Training is the most cost effective approach to personal training. Taking place in our 
-                    Functional Training Center, groups of up to 5 like-minded individuals are lead in an hour long program covering all areas of physical
-                    fitness by one of our Personal Trainers. With many different day and time options available we make it easy for you to hop in whenever you want!
+                The Semi-Private Training structure allows you more flexible
+                training time options and access to multiple trainers. You can schedule different
+                trainers and different session times whenever you want! Semi-Private Training package options allow you to choose
+                between 1, 2, or 3 sessions per week. Ranging from $29 to $35 per session,
+                Semi-Private Training is the most cost effective approach to personal training.
                 </p>
                 <Button href="/schedules" text="Training Center Schedule" />
                 <div className="py-8 lg:py-20"></div>
@@ -57,9 +62,9 @@ const semiPrivateTraining = ({data}) => {
                 <h2 className="mr-auto ml-auto  text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose">Still not sure?</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16">
                     If you'd like more in depth information about any of our personal training products or to learn more about the VAC trainers, 
-                    schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. In addition, if the times available in 
-                    the Fitness Consultation, Semi-Private Training or Personal Training calendar are incompatible with your schedule, 
-                    please email travis@vashonathleticclub.com to schedule an alternate time.                
+                    schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. If the times available in the
+                    Fitness Consultation calendar are incompatible with your schedule, please email
+                    travis@vashonathleticclub.com to schedule an alternate time.              
                 </p>
 
                 <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
@@ -78,7 +83,7 @@ const semiPrivateTraining = ({data}) => {
                         </span>
                         <span className="text-center">
                             Feeling stuck? 
-                            Get the guidance motivation, encouragement and personal attention you need to reach your goals.
+                            Get the guidance, motivation, encouragement, and personal attention you need to reach your goals.
                         </span>
                         </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
@@ -107,8 +112,7 @@ const semiPrivateTraining = ({data}) => {
                         </span>
                         <span className="text-center">
                             Want fun and challenging exercises? Do you have a sports specific 
-                            goal, training style or piece of equipment you want to learn how to use? Our fitness department has a 
-                            variety of equipment and skill set to coach you.
+                            goal, training style or piece of equipment you want to learn how to use? Our fitness experts can help coach you.
                     </span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">

@@ -23,7 +23,7 @@ const PoolCalendar = () => {
     console.log(width)
 
     const key = 'AIzaSyC2RKZtrNZFHEbAWwVUXQG03bJ0KU5wqkE'
-    const calId = 'ms5cedaheqvk7bl9ae6mb5eukk@group.calendar.google.com'
+    const calId = 'c_rm51fq1dvipnqloj1bl491f7rg@group.calendar.google.com'
 
     return (
         <div className="w-11/12 mx-auto text-gray-700 calendar my-16">

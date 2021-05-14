@@ -21,7 +21,7 @@ const TristanInfo = () => {
                     <h1 className=" text-vacblue text-2xl font-extrabold lg:text-4xl">Tristan Carbery</h1>
                     <h2 className="uppercase font-bold text-lg text-gray-700 lg:text-2xl">Personal Trainer</h2>
                     <div className="flex justify-center text-xl ">
-                    tristan@vashonathleticclub.com
+                    tristan.carbery@nurahealth.com
                     </div>
                 </div>
             </div>
