@@ -12,13 +12,14 @@ const freeConsultation = () => {
         <Layout >
             <div className="h-screen flex">
                 <div className="absolute block h-full w-screen bg-gradient-to-b from-vacblue to-transparent" style={{zIndex: -1}}  />
-                <div className="h-screen w-screen absolute"style={{zIndex: -2}}>
+                <div className="h-screen w-screen absolute" style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/consultation.jpg"
+                    src="/consultationhero.jpg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
+                    objectPosition="0 5rem"
                 />
                 </div>
 
@@ -81,7 +82,7 @@ const freeConsultation = () => {
                         <span className="text-center">Learn about our swim programs and group fitness classes</span>
                     </li>
                 </ul>
-                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!" size="small"/>
             </div>
         </Layout>
     )

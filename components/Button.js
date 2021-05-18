@@ -8,7 +8,7 @@ const Button = (props) => {
     let classes = ""
 
     if(props.size === "small"){
-        classes = "mt-0 w-max p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase"
+        classes = "mt-0 p-4 bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase"
     } else {
         classes = "mt-8 w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase"
     }

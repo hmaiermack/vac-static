@@ -56,10 +56,11 @@ const index = () => {
         </div>
 
 
-      {/* Subscribe section */}
-      <section className="relative flex md:justify-center py-8">
+      {/* Subscribe section ---! Waiting on affiliate link*/}
+      
+      {/* <section className="relative flex md:justify-center py-8">
         <SubscribeForm />
-      </section>
+      </section> */}
 
       <section className="bg-gray-200">
           <section className="w-6/12 mx-auto p-8">
@@ -69,11 +70,11 @@ const index = () => {
         </section>
       </section>
 
-      {/* Latest news */}
-      <section className="bg-vacblue text-white px-8 py-4 flex flex-col items-center justify-center">
+      {/* Latest news ---! Do we really want to do this?*/}
+      {/* <section className="bg-vacblue text-white px-8 py-4 flex flex-col items-center justify-center">
         <h2 className="text-4xl font-extrabold text-center mb-4">Latest News</h2>
         <Post />
-      </section>
+      </section> */}
 
     </Layout>
   )

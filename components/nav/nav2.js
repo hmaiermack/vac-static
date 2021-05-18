@@ -91,7 +91,7 @@ export default function Nav2() {
                             onMouseLeave={() => setActive3(false)}/></li>}
                         </ul>   
                         <li className={`${router.pathname === `/schedules` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white schedules-head`}><Link href="/schedules"><a>Schedules</a></Link></li>    
-                        <li className={`${router.pathname === `/news` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/news"><a>News</a></Link></li>
+                        {/* <li className={`${router.pathname === `/news` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/news"><a>News</a></Link></li> */}
                         <li className={`${router.pathname === `/covid` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/covid"><a>COVID-19 Guidelines</a></Link></li>
                     </ul>
                 </div>
@@ -127,7 +127,7 @@ export default function Nav2() {
                         </div>
                         {/* Other */}
                         <Link href="/schedules" ><a className="text-xl py-1">Schedules</a></Link>
-                        <Link href="/news" ><a className="text-xl">News</a></Link>
+                        {/* <Link href="/news" ><a className="text-xl">News</a></Link> */}
                         <Link href="/covid" ><a className="text-xl">COVID-19 Guidelines</a></Link>
                         </div>
                     </div>

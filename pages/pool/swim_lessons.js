@@ -91,7 +91,7 @@ const childrensLessons = ({data}) => {
                 and turns. Additionally, we teach all the drills and workout techniques. This level prepares the swimmers to effectively 
                 participate in daily workouts and compete at higher levels.
                 </p>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8 lg:mb-40">
                     Stroke School is a very important step on the way to a lifetime of swimming for fitness, competition or recreation. 
                     Understanding the construction of a stroke is one piece of success.  Our passion is to pass on the love of swimming. Safety, 
                     professional training, and fun is the recipe for the success in our programs. Pricing discounts for VAC Members.

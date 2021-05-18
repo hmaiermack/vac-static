@@ -13,7 +13,7 @@ const oneOnOneTraining = ({data}) => {
                 <div className="h-screen w-screen absolute"style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/consultation.jpg"
+                    src="/1on1hero.jpeg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
@@ -63,10 +63,10 @@ const oneOnOneTraining = ({data}) => {
                 accessible to the entirety of the Vashon community.
                 </p>
 
-                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!" size="small"/>
 
 
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mt-4 mb-16 lg:mb-40">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mt-8 mb-16 lg:mb-40">
                     If you'd like more in depth information about any of our personal training products or to learn more about the VAC trainers, 
                     schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. If the times available in 
                     the Fitness Consultation calendar are incompatible with your schedule, 

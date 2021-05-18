@@ -13,7 +13,7 @@ const semiPrivateTraining = ({data}) => {
                 <div className="h-screen w-screen absolute"style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/consultation.jpg"
+                    src="/semihero.jpg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
@@ -54,7 +54,8 @@ const semiPrivateTraining = ({data}) => {
                 between 1, 2, or 3 sessions per week. Ranging from $29 to $35 per session,
                 Semi-Private Training is the most cost effective approach to personal training.
                 </p>
-                <Button href="/schedules" text="Training Center Schedule" />
+                {/* Do we need a link to the training center schedule? */}
+                {/* <Button href="/schedules" text="Training Center Schedule" /> */}
                 <div className="py-8 lg:py-20"></div>
             </div>
 
