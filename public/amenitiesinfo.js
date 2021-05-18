@@ -50,7 +50,7 @@ export const amenitiesInfo = [
         info: pool.description
     },
     {
-        path: '/pool3.jpg',
+        path: '/pool3.JPG',
         header: pool.title,
         info: pool.description
     },
