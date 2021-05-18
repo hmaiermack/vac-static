@@ -39,7 +39,7 @@ const PoolCalendar = () => {
                       }}
                       title
                       minTime="07:00:00"
-                      maxTime="19:00:00"
+                      maxTime="22:00:00"
                       slotDuration="00:15:00"
                       allDaySlot={false}
                       header={{
