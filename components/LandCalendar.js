@@ -22,7 +22,7 @@ const LandCalendar = () => {
     console.log(width)
 
     const key = 'AIzaSyC2RKZtrNZFHEbAWwVUXQG03bJ0KU5wqkE'
-    const calId = 'ms5cedaheqvk7bl9ae6mb5eukk@group.calendar.google.com'
+    const calId = 'c_g8lgrj65eooh8eqa6m8k6jq1kc@group.calendar.google.com'
 
     return (
         <div className="w-11/12 mx-auto text-gray-700 calendar">
