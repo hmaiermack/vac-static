@@ -17,7 +17,7 @@ const index = ({data}) => {
             <div className="h-screen top-52 md:top-0 w-screen absolute"style={{zIndex: -2}}>
             <Image
                 alt="Background image"
-                src="/ptlanding.jpeg"
+                src="/ptlanding.jpg"
                 layout="fill"
                 objectFit="cover"
                 priority={true}

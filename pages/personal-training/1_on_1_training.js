@@ -13,7 +13,7 @@ const oneOnOneTraining = ({data}) => {
                 <div className="h-screen w-screen absolute"style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/1on1hero.jpeg"
+                    src="/1on1hero.jpg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
