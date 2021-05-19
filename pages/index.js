@@ -24,34 +24,32 @@ const index = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
-                <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Special Offer</span>
-                <span className="block text-vacblue lg:text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">Reduced rates on group personal training</span>
+                <span className="block text-vacblue font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Special Offer</span>
+                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl">REDUCED RATES ON SEMI-PRIVATE TRAINING</span>
                 </h1>
                 </div>
         </div>
         <div className=" text-center w-screen bg-white p-16 z-10">
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">STRUCTURED AND GUIDED WORKOUTS ON A FLEXIBLE SCHEDULE</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
-                Semi-Private Personal Training sessions are available now! Semi-Private Training package options allow you to choose 1 session, 
-                2 sessions, or 3 sessions per week. Workout among up to 5 like minded individuals in a fun, safe and supportive environment. 
-                Each class is 1 hour in length and covers fundamentals of strength training, mobility, balance, agility and core work. All abilities 
-                are welcome with scalable workouts for any level of fitness.
+                Exercise with up to 4 other individuals under the guidance of a personal trainer in a fun, safe, and supportive environment. 
+                All abilities are welcome with scalable workouts for any level of fitness; however, a basic level of physical ability and mobility is 
+                necessary. Each session is 1 hour in length and takes place in our bright and spacious Functional Training Center. Sessions utilize various 
+                types of exercises, equipment, and workout routines. Elements of strength, endurance, cardio, mobility, balance, agility, and/or core 
+                training may be included in any class
                 </p>
         </div>
 
-        <div className=" bg-gray-200 flex flex-col justify-center lg:flex-row justify-self-center p-10">
-        <Card body="We're pleased to now offer online purchasing and scheduling in one convenient location
-              on our website  for all of your personal training needs!
-              It’s now easier than ever to get the training you need when you need it!" header="Online Booking" icon="dumbbell" 
-              button="Schedule Now"/>
-              <Card header="Virtual Training" body="We’ve got you covered with virtual training sessions that will
-              ensure you stay strong, healthy and connected to your VAC community from the comfort of your home.
-                Up to 4 virtual training sessions are available to book throughout the week for as little as $96 per month!" icon="desktop"
-                button="learn more"/>
-              <Card header="Free Fitness Consultation" icon="comment" body="If you'd like more in depth information 
-              about any of these options or to learn more about the VAC trainers, schedule a Fitness Consultation
-              with our Personal Training Director, Erika Anderson
-                erika@vashonathleticclub.com" button="Free Consultation"/>
+        <div className=" bg-gray-200 flex flex-col justify-center lg:flex-row lg:justify-center justify-self-center p-10">
+          <Card body="The Semi-Private Training structure allows you more flexible training time options and access to 
+              multiple trainers. You can schedule different trainers and different session times whenever you want! Semi-Private 
+              Training package options allow you to choose between 1, 2, or 3 sessions per week. Ranging from $29 to $35 per session, 
+              Semi-Private Training is the most cost effective approach to personal training." header="Online Booking" icon="dumbbell" 
+              button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/>
+          <Card header="Free Fitness Consultation" icon="comment" body="If you would like more in depth information about any of our Personal Training 
+              options or to learn more about the VAC trainers, schedule a Fitness Consultation with our Personal Training Director, 
+              Travis Tuchak, travis@vashonathleticclub.com" button="Free Consultation" link="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation"
+                />
 
         </div>
 

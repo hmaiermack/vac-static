@@ -55,7 +55,7 @@ const oneOnOneTraining = ({data}) => {
 
             <div className="w-screen bg-white p-16 pt-32 text-center lg:mt-40" style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw))', zIndex: '8'}}>
                 <h2 className="mr-auto ml-auto  text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose">1-ON-1 Personal Training sessions are available now! </h2>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
                 Our 1-on-1 Personal Training package options allow
                 you to choose between 1, 2, or 3 sessions per week with a trainer. Each session
                 is 1 hour in length. We boast some of the most affordable personal training rates
@@ -118,7 +118,7 @@ const oneOnOneTraining = ({data}) => {
                         <span className="text-center ">
                             Want fun and challenging exercises? Do you have a sports specific 
                             goal, training style or piece of equipment you want to learn how to use? Our fitness department has a 
-                            variety of equipment and skill set to coach you.
+                            variety of equipment and skill sets to coach you.
                     </span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">

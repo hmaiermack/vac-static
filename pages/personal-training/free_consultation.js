@@ -72,7 +72,7 @@ const freeConsultation = () => {
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
                             <FontAwesomeIcon icon={faDumbbell} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
-                        <span className="text-center">Explore one-on-one and semi-private training options</span>
+                        <span className="text-center">Explore 1-ON-1 and Semi-Private Training options</span>
                     </li>
                     <li className="flex flex-col justify-center items-center md:w-2/6 md:px-8">
                         <span className="inline-block w-20 h-20 mb-8 relative text-center">

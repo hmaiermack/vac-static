@@ -115,7 +115,7 @@ export default function Nav2() {
                         {/* PT Links */}
                         <div className="py-1 flex flex-col">
                         <Link href="/personal-training" ><a className="text-xl">Personal Training</a></Link>
-                        <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4">1-on-1 Personal Training</a></Link>
+                        <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4">1-ON-1 Personal Training</a></Link>
                         <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4">Semi-Private Personal Training</a></Link>
                         <Link href="/personal-training/free_consultation" ><a className="text-base ml-4">Free Fitness Consultation</a></Link>
                         </div>

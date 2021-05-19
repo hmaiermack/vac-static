@@ -8,7 +8,7 @@ export const menuItems = {
     ],
     personal_training: [
         {
-            title: '1-on-1 Personal Training',
+            title: '1-ON-1 Personal Training',
             path: '/personal-training/1_on_1_training',
             cName: 'dropdown-link'
         },

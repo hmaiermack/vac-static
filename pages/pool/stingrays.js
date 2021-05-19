@@ -142,16 +142,12 @@ const stingrays = ({data}) => {
                             <span id="interests" className="block uppercase tracking-wide text-gray-700 font-bold mb-2">What are you interested in?</span>
                                 <div role="group" aria-labelledby="interests" className="flex flex-wrap justify-around items-start md:px-4">
                                     <label className="w-5/12 md:w-max lg:mr-4">
-                                    <Field type="checkbox" name="interests" value="Learning to swim" className="mr-2 md:mr-1"/>
-                                    Learning to swim
+                                    <Field type="checkbox" name="interests" value="Learn to swim/Lil rays" className="mr-2 md:mr-1"/>
+                                    Learn to Swim/Lil rays
                                     </label>
                                     <label className="w-5/12 md:w-max mb-2 md:mb-0 lg:mr-4">
                                     <Field type="checkbox" name="interests" value="Parent Tot Classes" className="mr-2 md:mr-1" />
                                     Parent Tot Classes
-                                    </label>
-                                    <label className="w-5/12 md:w-max lg:mr-4">
-                                    <Field type="checkbox" name="interests" value="Lil Rays" className="mr-2 md:mr-1"/>
-                                    Lil Rays
                                     </label>
                                     <label className="w-5/12 md:w-max mb-2 md:mb-0 lg:mr-4">
                                     <Field type="checkbox" name="interests" value="Stroke School" className="mr-2 md:mr-1"/>
