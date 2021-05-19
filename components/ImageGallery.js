@@ -22,6 +22,7 @@ const ImageGallery = () => {
                 alt={amenitiesInfo[i].info}
                 layout="fill"
                 objectFit="scale-down"
+                priority="true"
                  />
             </SwiperSlide>
         )

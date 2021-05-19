@@ -37,7 +37,7 @@ export const amenitiesInfo = [
     {
         path: '/1.jpg',
         header: 'Vashon Athletic Club',
-        info: 'Equipment, Amenities, & Membership information.'
+        info: 'Equipment, Amenities, & Membership Information.'
     },
     {
         path: '/pool1.jpg',
@@ -45,14 +45,14 @@ export const amenitiesInfo = [
         info: pool.description
     },
     {
-        path: '/pool2.jpg',
+        path: '/pool3.JPG',
         header: pool.title,
         info: pool.description
     },
     {
-        path: '/pool3.JPG',
-        header: pool.title,
-        info: pool.description
+        path: '/pool2.jpg',
+        header: hotTub.title,
+        info: hotTub.description
     },
     {
         path: '/spa1.jpg',
