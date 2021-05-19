@@ -14,7 +14,8 @@ const TravisInfo = () => {
                     alt="Travis Tuchak"
                     layout="fill"
                     objectFit="cover"
-                    className="rounded-full "
+                    className="rounded-full"
+                    priority={true}
                     />
                 </div>
                 <div className="mb-4 text-center w-screen lg:w-max lg:ml-16">
