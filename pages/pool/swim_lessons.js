@@ -78,7 +78,7 @@ const childrensLessons = ({data}) => {
             </div>
 
             <div className="w-screen bg-white p-16 pt-32 text-center lg:mt-40" style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw))', zIndex: '8'}}>
-                <Image alt="Lilrays logo"
+                <Image alt="Stingrays Stroke School"
                     src="/strokeschool.jpg"
                     height={258}
                     width={400} 
