@@ -27,8 +27,8 @@ const index = ({data}) => {
             <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
             <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 sm:text-center text-left">
               <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-8 md:mb-0">Reach your goals</span>
-              <span className="block lg:hidden text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.first_header}</span>
-              <span className="lg:block hidden text-vacgrey font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
+              <span className="block lg:hidden text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.first_header}</span>
+              <span className="lg:block hidden text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
             </h1>
             </div>
 
