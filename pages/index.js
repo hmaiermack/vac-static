@@ -25,7 +25,7 @@ const index = () => {
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 lg:mt-8 mb-8 text-center">
                 <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Special Offer</span>
-                <span className="block text-gray-200 font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">REDUCED RATES ON SEMI-PRIVATE TRAINING</span>
+                <span className="block text-black font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">REDUCED RATES ON SEMI-PRIVATE TRAINING</span>
                 </h1>
                 </div>
         </div>
