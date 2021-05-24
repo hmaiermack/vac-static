@@ -7,10 +7,11 @@ const covid = () => {
         <Layout>
             <div className="container mt-52 text-center mx-auto">
                 <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter uppercase leading-8 mb-2">Current Covid-19 Guidelines</h1>
-                <h2 className="text-gray-700 text-xl font-bold tracking-tighter uppercase mb-2">Updated: 3/5/2021
+                <h2 className="text-gray-700 text-xl font-bold tracking-tighter uppercase mb-2">Updated: 3/25/2021
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base mt-4">New Hours</span>
-                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">M-F 5:30 AM - 9:00pm</span>
-                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sat &amp; Sun 9:00 AM - 6:00 PM</span>
+                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">M-F 5:00 AM - 9:00pm</span>
+                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sat 8:00 AM - 6:00 PM</span>
+                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sun 9:00 AM - 6:00 PM</span>
                 </h2>
                 <div className="mx-auto text-left max-w-max p-4">
                     <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
@@ -49,7 +50,7 @@ const covid = () => {
                         Family Swim
                         </h3>
                         <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Up to 15 total people in the pool at a time during Family Swim times. First come, first served basis.
+                        Up to 20 total people in the pool at a time during Family Swim times. First come, first served basis.
                         </p>
                     </div>
                     <div className="mb-12">
@@ -79,8 +80,15 @@ const covid = () => {
                     </div>
                     <div className="mb-12">
                         <h3 className="text-vacblue text-xl font-extrabold tracking-tighter uppercase leading-8">
-                        Scheduling is still required for Robin's Pool Classes on Monday, Wednesday, and Friday at 8:00 am
+                        Scheduling is still required for Robin's Pool Classes on Monday, Wednesday, and Friday at 8:00 am. You can schedule through this link:
+                        <a>www.ourclublogin.com/500230</a>
                         </h3>
+                    </div>
+                    <div className="mx-auto text-left max-w-max p-4">
+                        <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
+                        If you are not currently a member and would like to become one please stop by the club, email info@vashonathleticclub.com
+                         or call the front desk at (206) 463-5601.
+                        </p>
                     </div>
                 </div>
             </div>
