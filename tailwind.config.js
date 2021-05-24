@@ -17,6 +17,9 @@ module.exports = {
       'burger': '1450px',
       'med':'848px'
     },
+    objectPosition: {
+      'index': '0 -15rem'
+    },
     linearGradientColors: theme => theme('colors'),
     radialGradientColors: theme => theme('colors'),
     conicGradientColors: theme => theme('colors'),
