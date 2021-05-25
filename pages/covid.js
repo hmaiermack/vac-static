@@ -23,7 +23,7 @@ const covid = () => {
                     <span className="ml-8 mb-4 font-bold w-full block">ALL AGES WELCOME!</span>
                     </p>
                     <h2 className="text-vacblue text-xl font-extrabold text-center tracking-tighter uppercase leading-8 mb-8">
-                        Reserving a place prior to use is not required for the following areas:
+                        Reserving a place prior to use is not required for the following:
                     </h2>
 
                     <div className="mb-12">
