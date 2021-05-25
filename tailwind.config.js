@@ -15,7 +15,8 @@ module.exports = {
     screens: {
       'nav2': '750px',
       'burger': '1450px',
-      'med':'848px'
+      'med':'848px',
+      '3xl':'2500px'
     },
     objectPosition: {
       'index': '0 -15rem'
