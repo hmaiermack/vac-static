@@ -22,7 +22,7 @@ const index = () => {
                     src="/vacsplash.jpg"
                     layout="fill"
                     priority={true}
-                    className="object-cover"
+                    objectFit="cover"
                 />
                 </div>
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
