@@ -16,7 +16,7 @@ module.exports = {
       'nav2': '750px',
       'burger': '1450px',
       'med':'848px',
-      '3xl':'2500px'
+      '3xl':'1780px'
     },
     objectPosition: {
       'index': '0 -15rem'
