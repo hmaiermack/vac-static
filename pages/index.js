@@ -23,7 +23,6 @@ const index = () => {
                     layout="fill"
                     priority={true}
                     objectFit="cover"
-                    className="3xl:object-index"
                 />
                 </div>
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
