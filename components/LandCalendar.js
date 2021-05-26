@@ -66,7 +66,7 @@ const LandCalendar = () => {
                     }
       
                 />)}
-                <Link href="https://6f181fd4-e3ce-4953-aba8-3b69188f6289.filesusr.com/ugd/135029_3c849c95599b4140a3d41b5f542c8f66.pdf">
+                <Link href="https://drive.google.com/file/d/19n0VGYJR56LOdYnSEPH3hbT8eV4y73lJ/view?usp=sharing">
                     <a>
                         <button className="mt-8 w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
                             <FontAwesomeIcon icon={faPrint} className="mr-2"/>Print Version    
