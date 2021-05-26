@@ -22,8 +22,8 @@ const semiPrivateTraining = ({data}) => {
 
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 mb-8 text-center">
-                <span className="block text-yellow-400 font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
-                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
+                <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
+                <span className="block text-yellow-400 font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
                 </h1>
                 <Button href="https://vacpersonalfitnesstraining.as.me/schedule.php" text="Schedule Now!" />
                 </div>
