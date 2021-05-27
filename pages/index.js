@@ -65,7 +65,7 @@ const index = () => {
       </section> */}
 
       <section className="bg-gray-200">
-          <section className="w-6/12 mx-auto p-8">
+          <section className="w-11/12 md:w-6/12 mx-auto p-8">
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         <iframe src="https://cdn.lightwidget.com/widgets/fd1b2d157cc85fef9761e5e29a484ced.html" scrolling="no" allowtransparency="true" 
         className="lightwidget-widget" style={{width: '100%', border: 0, overflow: 'hidden'}}></iframe>
