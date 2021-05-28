@@ -40,7 +40,7 @@ const index = () => {
                 All abilities are welcome with scalable workouts for any level of fitness; however, a basic level of physical ability and mobility is 
                 necessary. Each session is 1 hour in length and takes place in our bright and spacious Functional Training Center. Sessions utilize various 
                 types of exercises, equipment, and workout routines. Elements of strength, endurance, cardio, mobility, balance, agility, and/or core 
-                training may be included in any class
+                training may be included in any class.
                 </p>
         </div>
 

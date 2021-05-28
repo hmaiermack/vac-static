@@ -14,7 +14,7 @@ module.exports = {
     },
     screens: {
       'nav2': '750px',
-      'burger': '1450px',
+      'burger': '1557px',
       'med':'848px',
       '3xl':'1780px'
     },
