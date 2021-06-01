@@ -16,7 +16,7 @@ const Button = (props) => {
     return (
                 <Link href={props.href}>     
                     <a>
-                    <button className={classes}>
+                    <button className={`${classes} ${props.center ? 'text-center' : ''}`}>
                         {   props.icon &&
                             <FontAwesomeIcon icon={props.icon} className="mr-2" />}{props.text}    
                     </button>

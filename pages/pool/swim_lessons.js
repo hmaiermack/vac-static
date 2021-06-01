@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import { Formik, Field, Form } from 'formik';
 import emailjs from 'emailjs-com'
 import {init} from 'emailjs-com'
+import Button from '../../components/Button'
 
 const childrensLessons = ({data}) => {
     const [submitted, setSubmitted] = useState(false)
@@ -42,8 +43,9 @@ const childrensLessons = ({data}) => {
             </div>
 
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">All ages welcome!</h2>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase">All ages welcome!</h2>
+                <Button href="#inquiryform" text="Inquiry Form" center/>
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8 mt-8">
                     We're proud to offer swimming instruction to swimmers of all ages and experiences. Whether your tot is getting in the water for the first time,
                     or your child wants to become a competitive swimmer, we have a program for you.
                 </p>
@@ -99,10 +101,10 @@ const childrensLessons = ({data}) => {
 
             </div>
 
-            <div className="bg-gray-200 md:p-8">
+            <div className="bg-gray-200 md:p-8" id="inquiryform">
                 <h1 className="text-center mb-8">
                     <span className=" block text-2xl md:text-4xl text-vacblue font-extrabold my-2 uppercase">
-                        Information Form
+                        Inquiry Form
                     </span>
                     <span className="block md:text-xl text-gray-700 leading-relaxed">
                         If you are interested in any of our swimming lessons or teams, please fill out the form below and we will contact you!
@@ -111,7 +113,7 @@ const childrensLessons = ({data}) => {
 
 
                 {submitted === false &&      
-                <div className="">
+                <div className="" >
                     
                     <h2 className="text-center text-xl md:text-2xl text-vacblue font-extrabold mb-8 uppercase">Contact us</h2>
                     <Formik

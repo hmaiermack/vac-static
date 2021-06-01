@@ -4,6 +4,8 @@ import Layout from '../../components/layout'
 import { Formik, Field, Form } from 'formik';
 import emailjs from 'emailjs-com'
 import {init} from 'emailjs-com'
+import Link from 'next/link';
+import Button from '../../components/Button'
 
 const stingrays = ({data}) => {
 
@@ -49,8 +51,9 @@ const stingrays = ({data}) => {
                 width={500} 
                 layout="intrinsic"
                 />
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase mb-8">YEAR-ROUND COMPETITIVE TEAM</h2>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold uppercase">YEAR-ROUND COMPETITIVE TEAM</h2>
+                <Button href="#inquiryform" text="Inquiry Form" center/>
+                <p className="text-left mt-8 ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 lg:mb-40">
                 Vashon Stingrays is a year-round USA Swimming competitive team. We are part of the premier Vashon Athletic Club training center. 
                 Our Head Coach has over 30 years of experience in instruction and competitive swimming. Our staff also includes support coaches 
                 and certified VAC Personal Trainers. The Stingray Swim Team practices all year. Practice is held at the VAC indoor pool during the 
@@ -68,10 +71,10 @@ const stingrays = ({data}) => {
                 </p>
             </div>
 
-            <div className="bg-white md:p-8">
+            <div className="bg-white md:p-8" id="inquiryform">
                 <h1 className="text-center mb-8">
                     <span className=" block text-2xl md:text-4xl text-vacblue font-extrabold my-2 uppercase">
-                        Information Form
+                        Inquiry Form
                     </span>
                     <span className="block md:text-xl text-gray-700 leading-relaxed">
                         If you are interested in any of our swim programs, please fill out the form below and we will contact you!
@@ -80,7 +83,7 @@ const stingrays = ({data}) => {
 
 
             {submitted === false &&      
-                <div className="">
+                <div className="" >
                     
                     <h2 className="text-center text-xl md:text-2xl text-vacblue font-extrabold mb-8 uppercase">Contact us</h2>
                     <Formik
