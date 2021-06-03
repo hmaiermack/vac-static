@@ -81,7 +81,7 @@ const covid = () => {
                     <div className="mb-12">
                         <h3 className="text-vacblue text-xl font-extrabold tracking-tighter uppercase leading-8">
                         Scheduling is still required for Robin's Pool Classes on Monday, Wednesday, and Friday at 8:00 am. You can schedule through this link:
-                        <a href="www.ourclublogin.com/500230" target="_blank" >www.ourclublogin.com/500230</a>
+                        <a href="https://www.ourclublogin.com/500230" target="_blank" >www.ourclublogin.com/500230</a>
                         </h3>
                     </div>
                     <div className="mx-auto text-left max-w-max p-4">
