@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import React, { useState, useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import Menu from 'react-burger-menu/lib/menus/slide'
+import { styles } from './burgerStyles'
 import Drop2 from './drop2';
 import './navbar.module.css'
 
@@ -41,7 +43,7 @@ export default function Nav2() {
             </div>
             {/* Logo screens 750px or smaller */}
             <div className="w-screen h-auto flex justify-center">
-            <div className="h-56 w-56 nav2:hidden absolute">
+            <div className="h-56 w-56 nav2:hidden absolute z-20">
                 <Link href="/" passHref={true}>
                     <a>
                     <Image
@@ -49,7 +51,7 @@ export default function Nav2() {
                         alt="Vashon Athletic Club logo"
                         layout="fill"
                         objectFit="contain"
-                        className="z-20"
+                        className=""
                         priority={true}
                     />
                     </a>
@@ -95,43 +97,24 @@ export default function Nav2() {
                         <li className={`${router.pathname === `/covid` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/covid"><a>COVID-19 Guidelines</a></Link></li>
                     </ul>
                 </div>
-                {/* Mobile Menu */}
-                <div className="burger:hidden z-50 fixed right-0" >
-                    {/* Burger */}
-                    <button onClick={() => toggleExpansion(!isExpanded)} className={`${ isExpanded ? `hidden` : ``} flex items-center px-3 py-2 border-vacblue text-white`}>
-                        <FontAwesomeIcon icon={faBars} />
-                    </button>
-                    <button onClick={() => toggleExpansion(!isExpanded)} className={`${ !isExpanded ? `hidden` : ``} flex items-center px-3 py-2 border-vacblue text-vacpurple`}>
-                        <FontAwesomeIcon icon={faTimes} />
-                    </button>
-                </div>
-                    {/* Menu */}
-                    <div className={`${ isExpanded ? `flex mobile-active` : `` } mt-60 text-left right-0 w-screen h-screen bg-white justify-center content-center burger-menu mobile fixed text-lg`}>
-                        <div className="text-vacblue flex flex-col justify-center align-items-center mt-60 divide-y divide-grey-100">
-                        {/* Membership Links */}
-                        <div className="py-1 flex flex-col">
-                        <Link href="/membership" ><a className="text-xl">Membership</a></Link>
-                        </div>
-                        {/* PT Links */}
-                        <div className="py-1 flex flex-col">
-                        <Link href="/personal-training" ><a className="text-xl">Personal Training</a></Link>
-                        <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4">1-ON-1 Personal Training</a></Link>
-                        <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4">Semi-Private Personal Training</a></Link>
-                        <Link href="/personal-training/free_consultation" ><a className="text-base ml-4">Free Fitness Consultation</a></Link>
-                        </div>
-                        {/* Pool Links */}
-                        <div className="py-1 flex flex-col">
-                        <Link href="/pool" ><a className="text-xl">Pool</a></Link>
-                        <Link href="/pool/stingrays" ><a className="text-base ml-4">Stingrays Swim Team</a></Link>
-                        <Link href="/pool/swim_lessons" ><a className="text-base ml-4">Swim Lessons</a></Link>
-                        </div>
-                        {/* Other */}
-                        <Link href="/schedules" ><a className="text-xl py-1">Schedules</a></Link>
-                        {/* <Link href="/news" ><a className="text-xl">News</a></Link> */}
-                        <Link href="/covid" ><a className="text-xl">COVID-19 Guidelines</a></Link>
-                        </div>
+            </div>
+            <div className="burger:hidden">
+                <Menu right styles={styles}>
+                    <div className="relative z-50">
+                        <Link href="/"><a className="mt-4 text-xl block font-extrabold text-vacblue">Home</a></Link>
+                        <Link href="/membership" ><a className="text-xl block mt-2 font-extrabold text-vacblue">Membership</a></Link>
+                        <Link href="/personal-training" ><a className="text-xl block mt-2 font-extrabold text-vacblue">Personal Training</a></Link>
+                        <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4 block text-vacblue">1-ON-1 Personal Training</a></Link>
+                        <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4 block text-vacblue">Semi-Private Personal Training</a></Link>
+                        <Link href="/personal-training/free_consultation" ><a className="text-base ml-4 block text-vacblue">Free Fitness Consultation</a></Link>
+                        <Link href="/pool" ><a className="text-xl block font-extrabold text-vacblue mt-2">Pool</a></Link>
+                        <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
+                        <Link href="/pool/swim_lessons" ><a className="text-base ml-4 block text-vacblue">Swim Lessons</a></Link>
+                        <Link href="/schedules" ><a className="mt-2 text-xl block font-extrabold text-vacblue">Schedules</a></Link>
+                        <Link href="/covid" ><a className="mt-2 text-xl block font-extrabold text-vacblue w-full">COVID-19 Guidelines</a></Link>
                     </div>
-                </div>
+                </Menu>
+            </div>
         </nav>
     )
 }

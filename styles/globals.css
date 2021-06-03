@@ -20,70 +20,6 @@ a {
   box-sizing: border-box;
 }
 
-/* NAV1 STYLES*/
-/* .member-list {
-  transition: 150ms ease-in-out;
-}
-
-.member-list:hover .member-head {
-  background-color: #045184;
-  color: white;
-}
-
-.training-list {
-  transition: 150ms ease-in-out;
-}
-
-.training-list:hover .training-head {
-  background-color: #045184;
-  color: white;
-}
-
-.pool-list {
-  transition: 150ms ease-in-out;
-}
-
-.pool-list:hover .pool-head {
-  background-color: #045184;
-  color: white;
-}
-
-.schedules-head:hover {
-  background-color: #045184;
-  color: white;
-}
-
-.schedules-head {
-  transition: 150ms ease-in-out;
-}
-
-.news-head:hover {
-  background-color: #045184;
-  color: white;
-}
-
-.news-head {
-  transition: 150ms ease-in-out;
-}
-
-.home-head:hover {
-  background-color: #045184;
-  color: white;
-}
-
-.home-head {
-  transition: 150ms ease-in-out;
-}
-
-.current-tab > a::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-  border-bottom: 1px solid #045184;
-}
-*/
-
 .member-list {
   transition: 150ms ease-in-out;
 }
@@ -179,6 +115,21 @@ a {
     margin-top: 8.6rem;
     height: 4.4rem;
     background-color: #2e3d6a;
+  }
+  .bm-burger-button {
+    top: 9.75rem !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .bm-burger-button {
+    right: 6px !important;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 415px) {
+  .bm-burger-button {
+    right: 18px !important;
   }
 }
 
