@@ -5,11 +5,11 @@ import Button from '../../components/Button'
 import TravisInfo from '../../components/trainer-info/TravisInfo'
 import KarenInfo from '../../components/trainer-info/KarenInfo'
 import TristanInfo from '../../components/trainer-info/TristanInfo'
+import ZoeInfo from '../../components/trainer-info/ZoeInfo'
 
 
 
 const index = ({data}) => {
-    console.log(data)
     return (
         <Layout>
         <div className="h-screen flex">
@@ -46,6 +46,7 @@ const index = ({data}) => {
             <TravisInfo />
             <KarenInfo />
             <TristanInfo />
+            <ZoeInfo />
         </div>
 
         <div className="flex flex-col py-8 bg-gray-200">

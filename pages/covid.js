@@ -78,12 +78,6 @@ const covid = () => {
                         Up to 10 participants + instructor. First come, first served basis.
                         </p>
                     </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-xl font-extrabold tracking-tighter uppercase leading-8">
-                        Scheduling is still required for Robin's Pool Classes on Monday, Wednesday, and Friday at 8:00 am. You can schedule through this link:
-                        <a href="https://www.ourclublogin.com/500230" target="_blank" >www.ourclublogin.com/500230</a>
-                        </h3>
-                    </div>
                     <div className="mx-auto text-left max-w-max p-4">
                         <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
                         If you are not currently a member and would like to become one please stop by the club, email info@vashonathleticclub.com

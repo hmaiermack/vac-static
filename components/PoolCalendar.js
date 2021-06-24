@@ -20,7 +20,6 @@ import { faPrint } from '@fortawesome/free-solid-svg-icons'
 
 const PoolCalendar = () => {
     const width = window.innerWidth;
-    console.log(width)
 
     const key = 'AIzaSyC2RKZtrNZFHEbAWwVUXQG03bJ0KU5wqkE'
     const calId = 'c_rm51fq1dvipnqloj1bl491f7rg@group.calendar.google.com'
@@ -67,8 +66,8 @@ const PoolCalendar = () => {
                     }
       
                 />)}
-                <Link href="https://drive.google.com/file/d/1vgZO049jPo7a0Fx8kypquNfBW8EMqxrO/view?usp=sharing">
-                        <a>
+                <Link href="https://drive.google.com/file/d/1PWZn6r5eQgg_fxLLWQ9guVSyX09n3WKM/view?usp=sharing">
+                        <a target="_blank">
                 <button className="mt-8 w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
                     <FontAwesomeIcon icon={faPrint} className="mr-2" />Print Version    
                 </button>

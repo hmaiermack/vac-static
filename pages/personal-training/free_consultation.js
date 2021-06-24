@@ -33,10 +33,11 @@ const freeConsultation = () => {
 
             <div className="p-8 w-screen text-center">
             <h1 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Why Schedule a Fitness Consultation?</h1>
-                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 text-left">Identifying your goals and assessing your fitness level is the first step towards any wellness endeavor. 
+                <p className=" ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-16 text-left">
+                    Identifying your goals and assessing your fitness level is the first step towards any wellness endeavor. 
                     A Fitness Consultation is a complimentary consultation with a fitness professional, designed to help you 
-                    understand what your needs and goals are for building a healthy lifestyle. This appointment offers a strategic 
-                    plan for fitness and nutrition based on your individual needs to get you started achieving your goals.
+                    understand what your needs and goals are for building a healthy lifestyle. This appointment will guide you through our various Personal Training options to find
+                    the perfect fit for your unique fitness plan.
                 </p>
                 <ul className="md:flex md:flex-row md:justify-center md:flex-wrap md:items-start text-center p-4 text-xl text-gray-700">
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16 ">
@@ -44,21 +45,21 @@ const freeConsultation = () => {
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
                             <FontAwesomeIcon icon={faQuestion} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
-                        <span className="text-center">Discover what motivates you—what is your “why”?</span>
+                        <span className="text-center">Discover what motivates you — what is your “why”?</span>
                         </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
                         <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
                             <FontAwesomeIcon icon={faHeartbeat} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
-                        <span className="text-center">Establish your fitness level by learning a few fundamental movement patterns</span>
+                        <span className="text-center">Assess your current fitness level and explore your goals</span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8 md:mb-16">
                         <span className="inline-block w-20 h-20 mb-8 relative text-center">
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
                             <FontAwesomeIcon icon={faClipboard} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
-                        <span className="text-center">Receive expert fitness recommendations and establish a plan</span>
+                        <span className="text-center">Receive expert fitness recommendations and establish a plan of action</span>
                     </li>
                     <li className="flex flex-col justify-center items-center mb-8 md:w-2/6 md:px-8">
                         <span className="inline-block w-20 h-20 mb-8 relative text-center">
@@ -79,7 +80,7 @@ const freeConsultation = () => {
                             <FontAwesomeIcon icon={faCircle} className="text-transparent bg-gradient-to-tl from-vacblue to-vacpurple fa-4x circle-fade rounded-full"/>
                             <FontAwesomeIcon icon={faSwimmer} className="text-white fa-2x absolute m-auto left-0 top-0 right-0 bottom-0"/>
                         </span>
-                        <span className="text-center">Learn about our swim programs and group fitness classes</span>
+                        <span className="text-center">Learn about our group fitness classes</span>
                     </li>
                 </ul>
                 <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!" size="small"/>
