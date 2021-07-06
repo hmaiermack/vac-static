@@ -66,7 +66,7 @@ const PoolCalendar = () => {
                     }
       
                 />)}
-                <Link href="https://docs.google.com/document/d/1N42jM6QLc8gryOEkqC-TiZqVcv52ZpACDGvPpXrUgnY/edit?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1NHMiFqXq2i5yDNCej_1KFxdVOlmaq6q3/view?usp=sharing">
                         <a target="_blank">
                 <button className="mt-8 w-max p-4 md:text-lg bg-vacblue shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-vacpurple uppercase sm:col-start-2">
                     <FontAwesomeIcon icon={faPrint} className="mr-2" />Print Version    
