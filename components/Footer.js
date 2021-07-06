@@ -15,7 +15,7 @@ const Footer = () => {
             </ul>
             <ul className="flex flex-col justify-center items-center whitespace-nowrap">
                 <li className="underline font-bold">Hours</li>
-                <li><span className="font-bold font-sans whitespace-nowrap">Monday - Friday:</span> 5:00 AM - 9:00 PM</li>
+                <li><span className="font-bold font-sans whitespace-nowrap">Monday - Friday:</span> 4:45 AM - 9:00 PM</li>
                 <li><span className="font-bold font-sans whitespace-nowrap">Saturday:</span> 8:00 AM - 6:00 PM</li>
                 <li><span className="font-bold font-sans whitespace-nowrap">Sunday:</span> 9:00 AM - 6:00 PM</li>
             </ul>
