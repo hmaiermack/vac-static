@@ -9,17 +9,16 @@ const covid = () => {
                 <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter uppercase leading-8 mb-2">Current Covid-19 Guidelines</h1>
                 <h2 className="text-gray-700 text-xl font-bold tracking-tighter uppercase mb-2">Updated: 3/25/2021
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base mt-4">New Hours</span>
-                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">M-F 5:00 AM - 9:00pm</span>
+                    <span className=" font-bold w-full block uppercase text-center leading-snug text-base">M-F 4:45 AM - 9:00pm</span>
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sat 8:00 AM - 6:00 PM</span>
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sun 9:00 AM - 6:00 PM</span>
                 </h2>
                 <div className="mx-auto text-left max-w-max p-4">
                     <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
-                    The VAC is currently open for indoor fitness services. We are included in Phase 1, 2, &amp; 3 of the “Healthy 
+                    The VAC is currently allowed to operate at 100% capacity for indoor fitness services. We are included in Phase 1, 2, &amp; 3 of the “Healthy 
                     Washington – Roadmap to Recovery” plan. 
 
-                    <span className="ml-8 my-4 font-bold w-full block">Masks are required at all times while using the facility.</span>
-                    <span className="ml-8 mb-4 font-bold w-full block">Our current maximum capacity is restricted to 50% of our fire code occupancy rating.</span>
+                    <span className="ml-8 mb-4 font-bold w-full block">Scheduling is not required before visiting.</span>
                     <span className="ml-8 mb-4 font-bold w-full block">ALL AGES WELCOME!</span>
                     </p>
                     <h2 className="text-vacblue text-xl font-extrabold text-center tracking-tighter uppercase leading-8 mb-8">
@@ -28,60 +27,13 @@ const covid = () => {
 
                     <div className="mb-12">
                         <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                            Regular Gym: Machines, Free Weights, Cardio Machines etc.
+                        VAC Mask Policy
                         </h3>
                         <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Each exercise room in the facility is clearly marked with a maximum member capacity amount per room. Face coverings 
-                        are required at all times while multiple people are in the same room. Members are required to sanitize the equipment before 
-                        and after each use. VAC staff are cleaning the equipment throughout the day and after closing.
-                        </p>
-                    </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                        Lap Swim
-                        </h3>
-                        <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Up to 2 people per lap lane on a first come, first served basis. 6 total people are allowed to use the pool during 
-                        Lap Swim times.
-                        </p>
-                    </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                        Family Swim
-                        </h3>
-                        <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Up to 20 total people in the pool at a time during Family Swim times. First come, first served basis.
-                        </p>
-                    </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                        Hot Tub
-                        </h3>
-                        <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Up to 3 people at a time. First come, first served basis.
-                        </p>
-                    </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                        Group Exercise Classes in the Pool
-                        </h3>
-                        <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Each instructor has a different amount of participants that they are allowing in their individual classes. 
-                        First come, first served basis. 
-                        </p>
-                    </div>
-                    <div className="mb-12">
-                        <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                        Group Exercise Classes in the Aerobics Studio
-                        </h3>
-                        <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                        Up to 10 participants + instructor. First come, first served basis.
-                        </p>
-                    </div>
-                    <div className="mx-auto text-left max-w-max p-4">
-                        <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
-                        If you are not currently a member and would like to become one please stop by the club, email info@vashonathleticclub.com
-                         or call the front desk at (206) 463-5601.
+                        Fully vaccinated VAC members / users will not be required to wear face masks while using the facilities. WA Gov. 
+                        Inslee still requires that unvaccinated people wear face masks while indoors. If you are not vaccinated, please continue 
+                        to wear a face mask while using the VAC. Fully vaccinated members / users can choose to wear a mask or not and do whatever 
+                        they are most comfortable with.
                         </p>
                     </div>
                 </div>
