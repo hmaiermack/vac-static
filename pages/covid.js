@@ -7,7 +7,7 @@ const covid = () => {
         <Layout>
             <div className="container mt-52 text-center mx-auto">
                 <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter uppercase leading-8 mb-2">Current Covid-19 Guidelines</h1>
-                <h2 className="text-gray-700 text-xl font-bold tracking-tighter uppercase mb-2">Updated: 3/25/2021
+                <h2 className="text-gray-700 text-xl font-bold tracking-tighter uppercase mb-2">Updated: 7/6/2021
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base mt-4">New Hours</span>
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base">M-F 4:45 AM - 9:00pm</span>
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sat 8:00 AM - 6:00 PM</span>
