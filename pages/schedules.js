@@ -13,12 +13,12 @@ const NoSSRPool = dynamic(() => import("../components/PoolCalendar"), {
   });
 
 
-const schedules = () => {
+const schedules = ({land, pool}) => {
     return (
         <Layout >
             <div className="container mt-52 w-11/12 p-8 mx-auto">
-              <NoSSRPool />
-              <NoSSRLand />
+              <NoSSRPool link={pool.link}/>
+              <NoSSRLand link={land.link}/>
               {/* <NoSSRTraining /> */}
 
               <div className="w-11/12 mx-auto text-gray-700 mt-8">
@@ -38,5 +38,23 @@ const schedules = () => {
 
     )
 }
+
+export async function getStaticProps() {
+  const url = process.env.NEXT_PUBLIC_API_URL;
+  const landRes = await  fetch(`${url}/land-schedule`);
+  const land = await landRes.json();
+
+  const poolRes = await fetch(`${url}/pool-schedule`);
+  const pool = await poolRes.json();
+
+  return {
+      props: {
+          land,
+          pool
+      },
+      revalidate: 1
+  }
+}
+
 
 export default schedules

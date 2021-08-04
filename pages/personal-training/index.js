@@ -83,6 +83,7 @@ export async function getStaticProps() {
     const res = await  fetch(`${url}/pt-splash`);
     const data = await res.json();
 
+
     return {
         props: {
             data
