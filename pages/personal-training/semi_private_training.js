@@ -67,7 +67,7 @@ const semiPrivateTraining = ({data}) => {
                     travis@vashonathleticclub.com to schedule an alternate time.              
                 </p>
 
-                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!"/>
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!" size="small"/>
                 <div className="py-8 lg:py-20"></div>
                 
             </div>
