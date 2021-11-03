@@ -14,13 +14,33 @@ const covid = () => {
                     <span className=" font-bold w-full block uppercase text-center leading-snug text-base">Sun 9:00 AM - 6:00 PM</span>
                 </h2>
                 <div className="mx-auto text-left max-w-max p-4">
-                    <p className="mb-8 max-w-prose text-gray-700 leading-relaxed">
-                    The VAC is currently allowed to operate at 100% capacity for indoor fitness services. We are included in Phase 1, 2, &amp; 3 of the “Healthy 
-                    Washington – Roadmap to Recovery” plan. 
-
+                    <p className="mb-2 max-w-prose text-gray-700 leading-relaxed">
+                    King County Public Health has mandated that access to fitness facilities, restaurants, and many other indoor venues 
+                    will be limited to people who are fully vaccinated against COVID-19 or who have had a negative test result in the previous 72 hours. 
+                    </p>
+                    <p className="mb-2 max-w-prose text-gray-700 leading-relaxed">
+                    Access to the VAC facilities, for members and guests, will require one-time proof of vaccination or a negative test within 72 hours of entry.
+                    </p>
+                    <p className="mb-2 max-w-prose text-gray-700 leading-relaxed">
+                    We will accept proof of vaccination in a variety of ways, including showing your physical vaccine card or a picture of your card at the front desk. 
+                    You may also email a copy to info@vashonathleticclub.com
+                    </p>
+                    <p className="mb-2 max-w-prose text-gray-700 leading-relaxed">
+                    Our goal is to only require you to show this vaccine proof one time. We will file this information on your membership account for 
+                    future reference. You may occasionally be asked to show proof at a later time of entry, and we thank you in advance for your understanding.
+                    </p>
+                    <p className="mb-2 max-w-prose font-bold text-gray-700 leading-relaxed">
+                    Individuals under 12 years of age, who are not eligible to be vaccinated, are not required to be tested or show vaccine proof for entry.
+                    </p>
+                    <p className="mb-8 max-w-prose font-bold text-gray-700 leading-relaxed">
+                    <span className="underline w-full block"> Acceptable forms of proof</span>
+                    <span className="ml-4 w-full block"> A physical copy of your Vaccination Record Card from the CDC.</span>
+                    <span className="ml-4 w-full block"> A picture of your Vaccination Record Card on your phone.</span>
+                    <span className="ml-4 w-full block"> A digital vaccine card issued by the State of Washington (available by going to https://myirmobile.com).</span>
+                    <span className="ml-4 w-full block"> An approved app, such as CLEAR Health Pass, CommonPass, or VaxYes</span>
+                    </p>
                     <span className="ml-8 mb-4 font-bold w-full block">Scheduling is not required before visiting.</span>
                     <span className="ml-8 mb-4 font-bold w-full block">ALL AGES WELCOME!</span>
-                    </p>
 
                     <div className="mb-12">
                         <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
