@@ -65,6 +65,15 @@ a {
   transition: 150ms ease-in-out;
 }
 
+.waiver-head:hover {
+  background-color: white;
+  color: #242857;
+}
+
+.waiver-head {
+  transition: 150ms ease-in-out;
+}
+
 .home-head:hover {
   background-color: white;
   color: #242857;
