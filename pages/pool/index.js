@@ -26,7 +26,20 @@ const index = ({data}) => {
                 </div>
             </div>
 
-            <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
+            {/* <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Jump in, the waters warm!</h2>
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
+                Come take a swim in our saltwater Pool & Hot Tub. The Pool is heated to 85 degrees and Hot Tub to 104 degrees year round. 
+                Lap Swim, Family Swim, Exercise Classes, Swim Lessons & Swim Team are all available! 
+                </p>
+                <div className="mb-16 lg:mb-40">
+                <Button href="/schedules" text="View our current Pool Schedule" />
+                </div>
+            </div> */}
+
+            {/* Above div is commented out as Nick asked me to remove the below section. Above div has different styling rules for a diagonal break between divs. When classes 
+            return delete this middle div and uncomment the other two.  */}
+            <div className=" text-center w-screen bg-white p-16">
                 <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Jump in, the waters warm!</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
                 Come take a swim in our saltwater Pool & Hot Tub. The Pool is heated to 85 degrees and Hot Tub to 104 degrees year round. 
@@ -37,14 +50,14 @@ const index = ({data}) => {
                 </div>
             </div>
 
-            <div className="text-center bg-gray-200 w-screen p-16 pt-32">
+            {/* <div className="text-center bg-gray-200 w-screen p-16 pt-32">
                 <h2 className="mr-auto ml-auto text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose lg:mt-40">Swim Lessons & Swim Team</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
                 We're proud to offer instruction to swimmers of all ages and experiences. Whether your tot is getting in the water for the first 
                 time, or your child wants to become a competitive swimmer, we have a program for you! 
                 </p>
                 <Button href="/pool/swim_lessons" text="more info" />
-            </div>
+            </div> */}
         </Layout>
         )
 }

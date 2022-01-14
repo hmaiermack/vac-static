@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 import { Formik, Field, Form } from 'formik';
 import emailjs from 'emailjs-com'
 import {init} from 'emailjs-com'
 import Link from 'next/link';
-import Button from '../../components/Button'
+import Button from '../components/Button'
 
 const stingrays = ({data}) => {
 

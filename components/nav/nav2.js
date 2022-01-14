@@ -89,8 +89,8 @@ export default function Nav2() {
                             <li className={`${router.pathname.includes('/pool') ? `current-tab ` : ` `}pool-head px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white`}>
                                 <Link href="/pool"><a>Pool</a></Link>
                             </li>
-                            {active3 && <li><Drop2 parent="pool" onMouseEnter={() => setActive3(true)}
-                            onMouseLeave={() => setActive3(false)}/></li>}
+                            {/* {active3 && <li><Drop2 parent="pool" onMouseEnter={() => setActive3(true)}
+                            onMouseLeave={() => setActive3(false)}/></li>} */}
                         </ul>   
                         <li className={`${router.pathname === `/schedules` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white schedules-head`}><Link href="/schedules"><a>Schedules</a></Link></li>    
                         {/* <li className={`${router.pathname === `/news` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/news"><a>News</a></Link></li> */}
@@ -109,8 +109,8 @@ export default function Nav2() {
                         <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4 block text-vacblue">Semi-Private Personal Training</a></Link>
                         <Link href="/personal-training/free_consultation" ><a className="text-base ml-4 block text-vacblue">Free Fitness Consultation</a></Link>
                         <Link href="/pool" ><a className="text-xl block font-extrabold text-vacblue mt-2">Pool</a></Link>
-                        <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
-                        <Link href="/pool/swim_lessons" ><a className="text-base ml-4 block text-vacblue">Swim Lessons</a></Link>
+                        {/* <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
+                        <Link href="/pool/swim_lessons" ><a className="text-base ml-4 block text-vacblue">Swim Lessons</a></Link> */}
                         <Link href="/schedules" ><a className="mt-2 text-xl block font-extrabold text-vacblue">Schedules</a></Link>
                         <Link href="/covid" ><a className="mt-2 text-xl block font-extrabold text-vacblue w-full">COVID-19 Guidelines</a></Link>
                         <a className="mt-2 text-xl block font-extrabold text-vacblue w-full" target="_blank" href="https://waiver.smartwaiver.com/v/vashonathleticclub/">Waiver</a>
