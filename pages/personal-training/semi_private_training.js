@@ -25,7 +25,7 @@ const semiPrivateTraining = ({data}) => {
                 <span className="block text-white font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">{data.first_header}</span>
                 <span className="block text-yellow-400 font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
                 </h1>
-                <Button href="https://vacpersonalfitnesstraining.as.me/schedule.php" text="Schedule Now!" />
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule Now!" />
                 </div>
             </div>
             <div className=" text-center w-screen bg-white p-16 z-10" style={{clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%)', marginBottom: '-10vw'}}>
@@ -40,7 +40,7 @@ const semiPrivateTraining = ({data}) => {
                 equipment, and workout routines. Elements of strength, endurance, cardio, mobility, balance,
                 agility, and/or core training may be included in any class.
                 </p>
-                <Button href="https://vacpersonalfitnesstraining.as.me/schedule.php" text="Schedule Now!" />
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule Now!" />
                 <div className="py-8 lg:py-20"></div>
             </div>
 
@@ -137,7 +137,7 @@ const semiPrivateTraining = ({data}) => {
                     </li>
                 </ul>
 
-                <Button href="https://vacpersonalfitnesstraining.as.me/schedule.php" text="Schedule Now!" />
+                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule Now!" />
 
 
             </div>
