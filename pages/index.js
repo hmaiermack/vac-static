@@ -28,28 +28,29 @@ const index = () => {
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 lg:mt-8 mb-8 text-center">
                 <div className="block h-28 md:h-60 lg:h-72 xl:h-60"></div>
-                <span className="block text-yellow-400 font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Special Offer</span>
-                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">REDUCED RATES ON SEMI-PRIVATE TRAINING</span>
+                <span className="block text-yellow-400 font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Personal Training</span>
+                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">Structured and guided workouts on a
+                    flexible schedule</span>
                 </h1>
                 </div>
         </div>
         <div className=" text-center w-screen bg-white p-16 z-10">
-                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">STRUCTURED AND GUIDED WORKOUTS ON A FLEXIBLE SCHEDULE</h2>
+                <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
-                Exercise with up to 4 other individuals under the guidance of a personal trainer in a fun, safe, and supportive environment. 
-                All abilities are welcome with scalable workouts for any level of fitness; however, a basic level of physical ability and mobility is 
-                necessary. Each session is 1 hour in length and takes place in our bright and spacious Functional Training Center. Sessions utilize various 
-                types of exercises, equipment, and workout routines. Elements of strength, endurance, cardio, mobility, balance, agility, and/or core 
-                training may be included in any class.
+                If you are new or returning to exercise a personal trainer can show you
+                    where to begin by providing guidance, motivation, encouragement and personal attention to help you reach your goals. At the Vashon Athletic Club our 
+                    trainers can help you stay on top of your health by building an individualized program tailored to your specific needs and goals. 
+                    Whether you have a medical condition, 
+                    injury or need sport-specific training we are here to guide you in the right direction.
                 </p>
         </div>
 
         <div className=" bg-gray-200 flex flex-col justify-center lg:flex-row lg:justify-center justify-self-center p-10">
-          <Card body="The Semi-Private Training structure allows you more flexible training time options and access to 
+          {/* <Card body="The Semi-Private Training structure allows you more flexible training time options and access to 
               multiple trainers. You can schedule different trainers and different session times whenever you want! Semi-Private 
               Training package options allow you to choose between 1, 2, or 3 sessions per week. Ranging from $29 to $35 per session, 
               Semi-Private Training is the most cost effective approach to personal training." header="Online Booking" icon="dumbbell" 
-              button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/>
+              button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/> */}
           <Card header="Free Fitness Consultation" icon="comment" body="If you would like more in depth information about any of our Personal Training 
               options or to learn more about the VAC trainers, schedule a Fitness Consultation with our Personal Training Director, 
               Travis Tuchak, travis@vashonathleticclub.com" button="Free Consultation" link="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation"

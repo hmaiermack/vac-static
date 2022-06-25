@@ -43,7 +43,7 @@ const index = ({data}) => {
                 <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Jump in, the waters warm!</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
                 Come take a swim in our saltwater Pool & Hot Tub. The Pool is heated to 85 degrees and Hot Tub to 104 degrees year round. 
-                Lap Swim, Family Swim, Exercise Classes, Swim Lessons & Swim Team are all available! 
+                Lap Swim, Family Swim, & Exercise Classes are all available! 
                 </p>
                 <div className="mb-16 lg:mb-40">
                 <Button href="/schedules" text="View our current Pool Schedule" />

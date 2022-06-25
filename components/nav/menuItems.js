@@ -12,11 +12,11 @@ export const menuItems = {
             path: '/personal-training/1_on_1_training',
             cName: 'dropdown-link'
         },
-        {
-            title: 'Semi-Private Personal Training',
-            path: '/personal-training/semi_private_training',
-            cName: 'dropdown-link'
-        },
+        // {
+        //     title: 'Semi-Private Personal Training',
+        //     path: '/personal-training/semi_private_training',
+        //     cName: 'dropdown-link'
+        // },
         {
             title: 'Free Fitness Consultation',
             path: '/personal-training/free_consultation',
