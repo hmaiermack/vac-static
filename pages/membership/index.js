@@ -59,6 +59,7 @@ const index = ({data}) => {
                     <span className="uppercase text-4xl font-extrabold text-center leading-8">Membership Pricing</span>
                     <br></br>
                     <span className="uppercase text-sm font-bold leading-8">Save 7% when you pay in advance for an annual membership!</span>
+                    <br></br>
                     <span className="uppercase text-sm font-bold leading-8">Initiation fees range from $50 to $125 for each new account.</span>
                     </h1>
                 <div className="container flex flex-wrap justify-center ">
