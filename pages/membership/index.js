@@ -58,7 +58,7 @@ const index = ({data}) => {
                 <h1 className="text-vacblue mt-4 text-center">
                     <span className="uppercase text-4xl font-extrabold text-center leading-8">Membership Pricing</span>
                     <br></br>
-                    <span className="uppercase text-sm font-bold leading-8">Save 10% when you pay in advance for an annual membership!</span>
+                    <span className="uppercase text-sm font-bold leading-8">Save 7% when you pay in advance for an annual membership!</span>
                     </h1>
                 <div className="container flex flex-wrap justify-center ">
                     {displayCards}
