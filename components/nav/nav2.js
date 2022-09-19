@@ -106,7 +106,7 @@ export default function Nav2() {
                         <Link href="/membership" ><a className="text-xl block mt-2 font-extrabold text-vacblue">Membership</a></Link>
                         <Link href="/personal-training" ><a className="text-xl block mt-2 font-extrabold text-vacblue">Personal Training</a></Link>
                         <Link href="/personal-training/1_on_1_training" ><a className="text-base ml-4 block text-vacblue">1-ON-1 Personal Training</a></Link>
-                        <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4 block text-vacblue">Semi-Private Personal Training</a></Link>
+                        {/* <Link href="/personal-training/semi_private_training" ><a className="text-base ml-4 block text-vacblue">Semi-Private Personal Training</a></Link> */}
                         <Link href="/personal-training/free_consultation" ><a className="text-base ml-4 block text-vacblue">Free Fitness Consultation</a></Link>
                         <Link href="/pool" ><a className="text-xl block font-extrabold text-vacblue mt-2">Pool</a></Link>
                         {/* <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
