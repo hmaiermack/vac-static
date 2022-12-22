@@ -34,5 +34,12 @@ export const menuItems = {
             path: '/pool/swim_lessons',
             cName: 'dropdown-link'
         }
+    ],
+    schedules: [
+        {
+            title: 'Class Descriptions',
+            path: '/schedules/classdescriptions',
+            cName: 'dropdown-link'
+        }
     ]
 }

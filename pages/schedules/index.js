@@ -1,19 +1,19 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 import dynamic from "next/dynamic";
 
 //workaround for fullcalendar and nextjs, will not build into prod without disabling server side rendering on the calendar components
 
-const NoSSRLand = dynamic(() => import("../components/LandCalendar"), {
+const NoSSRLand = dynamic(() => import("../../components/LandCalendar"), {
     ssr: false,
   });
 
-const NoSSRPool = dynamic(() => import("../components/PoolCalendar"), {
+const NoSSRPool = dynamic(() => import("../../components/PoolCalendar"), {
     ssr: false,
   });
 
 
-const schedules = ({land, pool}) => {
+const index = ({land, pool}) => {
     return (
         <Layout >
             <div className="container mt-52 w-11/12 p-8 mx-auto">
@@ -44,4 +44,4 @@ export async function getStaticProps() {
 }
 
 
-export default schedules
+export default index

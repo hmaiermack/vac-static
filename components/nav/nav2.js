@@ -14,6 +14,7 @@ export default function Nav2() {
     const [active1, setActive1] = useState(false)
     const [active2, setActive2] = useState(false)
     const [active3, setActive3] = useState(false)
+    const [active4, setActive4] = useState(false)
     const [isExpanded, toggleExpansion] = useState(false)
 
     const router = useRouter()
@@ -92,7 +93,17 @@ export default function Nav2() {
                             {/* {active3 && <li><Drop2 parent="pool" onMouseEnter={() => setActive3(true)}
                             onMouseLeave={() => setActive3(false)}/></li>} */}
                         </ul>   
-                        <li className={`${router.pathname === `/schedules` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white schedules-head`}><Link href="/schedules"><a>Schedules</a></Link></li>    
+                        {/* <li className={`${router.pathname === `/schedules` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white schedules-head`}><Link href="/schedules"><a>Schedules</a></Link></li>     */}
+                        <ul className="nav-tab pool-list ml-2" 
+                        onMouseEnter={() => setActive4(true)}
+                        onMouseLeave={() => setActive4(false)}>
+                            <li className={`${router.pathname.includes('/schedules') ? `current-tab ` : ` `}pool-head px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white`}>
+                                <Link href="/schedules"><a>Schedules</a></Link>
+                            </li>
+                            {active4 && <li><Drop2 parent="schedules" onMouseEnter={() => setActive4(true)}
+                            onMouseLeave={() => setActive4(false)}/></li>}
+                        </ul>   
+
                         {/* <li className={`${router.pathname === `/news` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/news"><a>News</a></Link></li> */}
                         {/* <li className={`${router.pathname === `/covid` ? `current-tab ` : ` `}nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white news-head`}><Link href="/covid"><a>COVID-19 Guidelines</a></Link></li> */}
                         <li className={`waiver-head nav-tab ml-2 px-4 flex items-center h-16 transition ease-in-out duration-150  focus:bg-vacpurple focus:bg-opacity-90 focus:text-white`}><a target="_blank" href="https://waiver.smartwaiver.com/v/vashonathleticclub/">Waiver</a></li>
@@ -112,6 +123,7 @@ export default function Nav2() {
                         {/* <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
                         <Link href="/pool/swim_lessons" ><a className="text-base ml-4 block text-vacblue">Swim Lessons</a></Link> */}
                         <Link href="/schedules" ><a className="mt-2 text-xl block font-extrabold text-vacblue">Schedules</a></Link>
+                        <Link href="/schedules/classdescriptions" ><a className="text-base ml-4 block text-vacblue">Class Descriptions</a></Link>
                         {/* <Link href="/covid" ><a className="mt-2 text-xl block font-extrabold text-vacblue w-full">COVID-19 Guidelines</a></Link> */}
                         <a className="mt-2 text-xl block font-extrabold text-vacblue w-full" target="_blank" href="https://waiver.smartwaiver.com/v/vashonathleticclub/">Waiver</a>
                     </div>
