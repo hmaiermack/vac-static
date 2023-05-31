@@ -137,6 +137,16 @@ const classDescriptions = () => {
             </div>
             <div className="mb-6">
                 <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
+                Candlelight Yin Yoga
+                </h3>
+                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
+                Relax and settle into your body with a gentle therapeutic yoga practice to help access the deeper fascial layers and joints. 
+                Increase your range of motion and work your edge with fewer poses, held in silence. Class will finish with a 10-15 minute meditation 
+                to prepare for a good night's sleep. 
+                </p>
+            </div>
+            <div className="mb-6">
+                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
                 Pilates - Anne
                 </h3>
                 <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
@@ -163,6 +173,29 @@ const classDescriptions = () => {
                 <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
                 A no impact, whole body workout that incorporates standing strength and balance challenges, light weights, and Pilates based mat work 
                 and stretching to tone and improve alignment in the body.
+                </p>
+            </div>
+            <div className="mb-6">
+                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
+                Kickboxing
+                </h3>
+                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
+                This class is perfect for beginners looking to try their hand at kickboxing. You'll then learn basic kickboxing techniques, including punches, 
+                kicks, elbows and knees. As the class progresses, you'll put the moves together into longer combinations, and work up a sweat while burning 
+                calories. The class finishes with a cool-down and stretch to help prevent injury and improve flexibility. Whether you're looking to improve your fitness, 
+                learn self-defense techniques, or just try something new, this class is the perfect introduction to kickboxing.                
+                </p>
+            </div>
+            <div className="mb-6">
+                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
+                Aerobic Kickboxing
+                </h3>
+                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
+                This high-energy class combines kickboxing moves with upbeat music to give you an intense aerobic workout. You'll move in a series of combinations that 
+                combine punches, kicks, knees and cardio like jumping jacks. The instructor will keep the music pumping and the energy high, so you can really get into 
+                the rhythm of the workout. As the class progresses, the combinations get longer and more complex, so you'll really feel the burn. The class finishes with a 
+                cool-down and stretch to help prevent injury and improve flexibility. Whether you're looking to improve your cardio fitness, burn calories, or just have a blast, 
+                this class is sure to get your heart racing.
                 </p>
             </div>
             <div className="mb-6">
