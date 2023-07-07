@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../../components/layout'
 import MemberCard from '../../components/MemberCard'
 import ImageGallery from '../../components/ImageGallery'
+import Iframe from 'react-iframe'
 
 const index = ({data}) => {
     const displayCards = data.map((item, idx) => 
@@ -16,12 +17,27 @@ const index = ({data}) => {
         <Layout>
             <div className="bg-gray-200">
                 {/* Image Gallery */}
-            <div className="container mx-auto" style={{height: "50vh"}}>
+            {/* <div className="container mx-auto" style={{height: "50vh"}}>
             <ImageGallery />
-            </div>
+            </div> */}
+                   <div className='mt-40 container mx-auto h-screen justify-center flex flex-col'>
+                   <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-4">Guided Virtual Tour</h1>
+        <div className='md:w-full md:h-5/6'>
+        
+        <Iframe 
+          url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
+          width="100%"
+          height='100%'
+          frameBorder={0}
+          allowFullScreen={true}
+          allow='xr-spatial-tracking'
+          title='Guided virtual tour'
+        />
+        </div>
+       </div>
 
             {/* Info Divs */}
-            <div className="container flex flex-col justify-center items-center mx-auto mt-8">
+            <div className="container flex flex-col justify-center items-center mx-auto">
                 <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-2">Equipment & Amenities</h1>
                 <ul className="mt-1 border border-vacgrey flex flex-col mx-1 font-medium md:flex-row md:flex-wrap">
                     <li className="p-6 text-lg bg-gray-300 text-gray-700 leading-6 font-sans amenities-list">

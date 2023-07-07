@@ -5,6 +5,7 @@ import Button from '../components/Button'
 import Card from '../components/card'
 import SubscribeForm from '../components/SubscribeForm'
 import Post from '../components/Post'
+import Iframe from 'react-iframe'
 
 
 const index = () => {
@@ -28,12 +29,23 @@ const index = () => {
                 <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
                 <h1 className="tracking-tight mt-52 nav2:mt-44 lg:mt-8 mb-8 text-center">
                 <div className="block h-28 md:h-60 lg:h-72 xl:h-60"></div>
-                <span className="block text-yellow-400 font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Personal Training</span>
-                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">Structured and guided workouts on a
-                    flexible schedule</span>
+                {/* <span className="block text-yellow-400 font-extrabold uppercase tracking-tighter text-5xl med:text-8xl leading-none mb-2 md:mb-0">Guided Walkthrough</span> */}
+                <span className="block text-white font-extrabold uppercase leading-6 text-3xl med:text-5xl outline">Take a virtual tour of the VAC below!</span>
                 </h1>
                 </div>
+      </div>
+       <div className='w-full h-screen flex justify-center mt-8 mb-8'>
+        <div className='md:w-full md:h-5/6'>
+        <Iframe 
+          url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
+          width="100%"
+          height='100%'
+          frameBorder={0}
+          allowFullScreen={true}
+          allow='xr-spatial-tracking'
+        />
         </div>
+       </div>
         <div className=" text-center w-screen bg-white p-16 z-10">
                 <h2 className=" text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase">Do you want help with your workout routine and fitness goals?</h2>
                 <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed">
