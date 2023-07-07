@@ -35,7 +35,7 @@ const index = () => {
                 </div>
       </div>
        <div className='w-full h-screen flex justify-center mt-8 mb-8'>
-        <div className='md:w-full md:h-5/6'>
+        <div className='w-full md:h-5/6'>
         <Iframe 
           url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
           width="100%"

@@ -21,8 +21,8 @@ const index = ({data}) => {
             <ImageGallery />
             </div> */}
                    <div className='mt-40 container mx-auto h-screen justify-center flex flex-col'>
-                   <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-4">Guided Virtual Tour</h1>
-        <div className='md:w-full md:h-5/6'>
+                   <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-4 mt-16 med:mt-2">Guided Virtual Tour</h1>
+        <div className='w-full md:h-5/6'>
         
         <Iframe 
           url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
