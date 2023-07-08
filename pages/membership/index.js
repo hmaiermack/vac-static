@@ -20,9 +20,9 @@ const index = ({data}) => {
             {/* <div className="container mx-auto" style={{height: "50vh"}}>
             <ImageGallery />
             </div> */}
-                   <div className='mt-40 container mx-auto h-screen justify-center flex flex-col'>
+                   <div className='mt-40 container mx-auto h-screen flex flex-col'>
                    <h1 className="text-vacblue text-4xl font-extrabold tracking-tighter text-center uppercase leading-8 mb-4 mt-16 med:mt-2">Guided Virtual Tour</h1>
-        <div className='w-full md:h-5/6'>
+        <div className='w-full h-full'>
         
         <Iframe 
           url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
