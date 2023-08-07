@@ -64,8 +64,7 @@ const index = () => {
               Semi-Private Training is the most cost effective approach to personal training." header="Online Booking" icon="dumbbell" 
               button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/> */}
           <Card header="Free Fitness Consultation" icon="comment" body="If you would like more in depth information about any of our Personal Training 
-              options or to learn more about the VAC trainers, schedule a Fitness Consultation with our Personal Training Director, 
-              Travis Tuchak, travis@vashonathleticclub.com" button="Free Consultation" link="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation"
+              options or to learn more about the VAC trainers, schedule a Fitness Consultation with one of our personal trainers today!" button="Free Consultation" link="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation"
                 />
 
         </div>

@@ -10,13 +10,14 @@ const oneOnOneTraining = ({data}) => {
         <Layout >
             <div className="h-screen flex">
                 <div className="absolute block h-full w-screen bg-gradient-to-b from-vacblue to-transparent" style={{zIndex: -1}}  />
-                <div className="h-screen w-screen absolute"style={{zIndex: -2}}>
+                <div className="h-screen w-screen absolute top-24 sm:top-36"style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/1on1hero.jpg"
+                    src="/ptsplash.jpg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
+                    className='-top-10'
  
                 />
                 </div>

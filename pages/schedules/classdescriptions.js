@@ -71,7 +71,7 @@ const classDescriptions = () => {
             </div>
             <div className="mb-6">
                 <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                Zumba - Claudine, Mary, Ture
+                Zumba - Claudine, Christie, Mary, Ture
                 </h3>
                 <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
                 Zumba is an hour of dynamic, dance-based movement set to a playlist of mixed tunes and intensity levels from start 
@@ -89,17 +89,6 @@ const classDescriptions = () => {
                 movement set to a playlist of mixed tunes that each have their own choreography. It's a great lower-intensity dance 
                 fitness option as well as an “on-ramp” if you’re new to Zumba classes. Like Zumba, dance experience is not required to 
                 participate!             
-                </p>
-            </div>
-            <div className="mb-6">
-                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                Zumba KIDS - Ture
-                </h3>
-                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                Zumba Kids combines elements of dance, aerobics and cultural exploration (Latin and World music, rhythms and activities) 
-                into an engaging and empowering movement class for kids. The format of the kids' class includes broken down steps, 
-                kid-friendly routines, and games/activities for kids to interact with and support each other. Students get opportunities 
-                to follow along, lead, build on their learning, be part of a group and stand out/shine in appropriate ways.                
                 </p>
             </div>
             <div className="mb-6">
@@ -124,25 +113,6 @@ const classDescriptions = () => {
                 for aging bodies. I sequence the class so that students are feeling capable of holding a standing balance, for example, 
                 by warming up specific muscles related to that pose. I use a theme in order to inspire my students, and try to call 
                 them by their names to promote community.         
-                </p>
-            </div>
-            <div className="mb-6">
-                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                Yoga - Hallie
-                </h3>
-                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                This all levels class moves slowly through basic asanas to energize and release muscle tissue. Especially designed for 
-                low back pain relief. Hallie shares with students a life of movement, knowledge from Anusara yoga, dance and bodywork.     
-                </p>
-            </div>
-            <div className="mb-6">
-                <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                Candlelight Yin Yoga
-                </h3>
-                <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
-                Relax and settle into your body with a gentle therapeutic yoga practice to help access the deeper fascial layers and joints. 
-                Increase your range of motion and work your edge with fewer poses, held in silence. Class will finish with a 10-15 minute meditation 
-                to prepare for a good night's sleep. 
                 </p>
             </div>
             <div className="mb-6">
@@ -209,7 +179,7 @@ const classDescriptions = () => {
             </div>
             <div className="mb-6">
                 <h3 className="text-vacblue text-lg font-bold tracking-tighter uppercase leading-8">
-                Senior Fitness - Karen
+                Senior Fitness - Erika
                 </h3>
                 <p className="max-w-prose text-gray-700 leading-relaxed ml-8">
                 This class focuses on mobility, stability, strength, and balance through a variety of movement drills and resistance 

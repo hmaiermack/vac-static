@@ -2,10 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Layout from '../../components/layout'
 import Button from '../../components/Button'
-import TravisInfo from '../../components/trainer-info/TravisInfo'
+import AaronInfo from '../../components/trainer-info/AaronInfo'
 import KarenInfo from '../../components/trainer-info/KarenInfo'
 import TristanInfo from '../../components/trainer-info/TristanInfo'
-import ZoeInfo from '../../components/trainer-info/ZoeInfo'
 import MollyInfo from '../../components/trainer-info/MollyInfo'
 import ClaireInfo from '../../components/trainer-info/ClaireInfo'
 
@@ -45,7 +44,7 @@ const index = ({data}) => {
         </div>
         <div className="mt-8 text-center md:flex md:flex-col md:justify-center md:items-center w-screen">
             <h1 className="text-center text-4xl text-vacblue font-extrabold uppercase lg:mb-4">Meet our Trainers</h1>
-            <TravisInfo />
+            <AaronInfo />
             <KarenInfo />
             <TristanInfo />
             <MollyInfo />
@@ -55,7 +54,7 @@ const index = ({data}) => {
         <div className="flex flex-col py-8 bg-gray-200">
             <h1 className="text-center text-4xl text-vacblue font-extrabold uppercase lg:mb-4">Our Training Options</h1>
             <div className="flex flex-col md:flex-row justify-around w-full items-center ">
-                {/* <div className="bg-white p-4 mt-4 mb-4 text-center md:flex-grow-0 md:w-5/12 w-9/12">
+                <div className="bg-white p-4 mt-4 mb-4 text-center md:flex-grow-0 md:w-5/12 w-9/12">
                     <h2 className="uppercase font-bold text-2xl text-vacblue mb-4 lg:text-4xl">Semi-Private Training</h2>
                     <p className="text-left text-gray-700 leading-relaxed text-xl">
                     Exercise with up to 4 other like-minded participants
@@ -65,7 +64,7 @@ const index = ({data}) => {
                     </p>
                     <Button href="/personal-training/semi_private_training" text="More Info" />
 
-                </div> */}
+                </div>
                 <div className="bg-white p-4 mt-4 text-center md:flex-grow-0 md:w-5/12 mb-4 w-9/12">
                     <h2 className="uppercase font-bold text-2xl text-vacblue mb-4 lg:text-4xl">1-On-1 Personal Training</h2>
                     <p className="text-left text-gray-700 leading-relaxed text-xl">
