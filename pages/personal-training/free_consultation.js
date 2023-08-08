@@ -15,7 +15,7 @@ const freeConsultation = () => {
                 <div className="h-screen w-screen absolute" style={{zIndex: -2}}>
                 <Image
                     alt="Background image"
-                    src="/consultationhero.jpg"
+                    src="/ptsplash.jpg"
                     layout="fill"
                     objectFit="cover"
                     priority={true}
