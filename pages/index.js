@@ -57,17 +57,17 @@ const index = () => {
                 </p>
         </div>
 
-        <div className=" bg-gray-200 flex flex-col justify-center lg:flex-row lg:justify-center justify-self-center p-10">
-          {/* <Card body="The Semi-Private Training structure allows you more flexible training time options and access to 
+        {/* <div className=" bg-gray-200 flex flex-col justify-center lg:flex-row lg:justify-center justify-self-center p-10">
+          <Card body="The Semi-Private Training structure allows you more flexible training time options and access to 
               multiple trainers. You can schedule different trainers and different session times whenever you want! Semi-Private 
               Training package options allow you to choose between 1, 2, or 3 sessions per week. Ranging from $29 to $35 per session, 
               Semi-Private Training is the most cost effective approach to personal training." header="Online Booking" icon="dumbbell" 
-              button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/> */}
+              button="Schedule Now" link="https://vacpersonalfitnesstraining.as.me/schedule.php"/>
           <Card header="Free Fitness Consultation" icon="comment" body="If you would like more in depth information about any of our Personal Training 
               options or to learn more about the VAC trainers, schedule a Fitness Consultation with one of our personal trainers today!" button="Free Consultation" link="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation"
                 />
 
-        </div>
+        </div> */}
 
 
       {/* Subscribe section ---! Waiting on affiliate link*/}

@@ -27,13 +27,13 @@ const index = ({data}) => {
 
             <div className="flex flex-col justify-center items-center relative pl-4 xl:px-32 z-10 w-screen">
             <h1 className="tracking-tight mt-52 nav2:mt-44 med:mt-0 sm:text-center text-left">
-              <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-8 md:mb-0">{data.first_header}</span>
-              <span className="lg:block hidden text-yellow-400 font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span>
+              {/* <span className="block text-white font-extrabold uppercase tracking-tighter text-6xl sm:text-7xl med:text-8xl leading-none mb-8 md:mb-0">{data.first_header}</span>
+              <span className="lg:block hidden text-yellow-400 font-extrabold uppercase leading-6 text-3xl med:text-5xl">{data.sub_header}</span> */}
             </h1>
             </div>
 
         </div>
-        <div className="bg-gray-200 lg:p-8 py-8 ">
+        {/* <div className="bg-gray-200 lg:p-8 py-8 ">
             <h1 className="text-center text-4xl text-vacblue font-extrabold mb-4 uppercase">Free Fitness Consultation</h1>
             <div className="lg:w-5/12 flex-col justify-center items-center flex  bg-white p-8 shadow-lg mx-auto">
             <p className="text-gray-700 leading-relaxed text-xl font-bold mb-4">
@@ -41,13 +41,11 @@ const index = ({data}) => {
             </p>
             <Button href={data.consultation_blurb.button_url} text={data.consultation_blurb.button_text} />
             </div>
-        </div>
+        </div> */}
         <div className="mt-8 text-center md:flex md:flex-col md:justify-center md:items-center w-screen">
             <h1 className="text-center text-4xl text-vacblue font-extrabold uppercase lg:mb-4">Meet our Trainers</h1>
-            <AaronInfo />
             <KarenInfo />
             <TristanInfo />
-            <MollyInfo />
             <ClaireInfo />
         </div>
 
@@ -80,17 +78,17 @@ const index = ({data}) => {
     )
 }
 
-export async function getStaticProps() {
-    const url = process.env.NEXT_PUBLIC_API_URL;
-    const res = await  fetch(`${url}/pt-splash`);
-    const data = await res.json();
+// export async function getStaticProps() {
+//     const url = process.env.NEXT_PUBLIC_API_URL;
+//     const res = await  fetch(`${url}/pt-splash`);
+//     const data = await res.json();
 
 
-    return {
-        props: {
-            data
-        }
-    }
-}
+//     return {
+//         props: {
+//             data
+//         }
+//     }
+// }
 
 export default index

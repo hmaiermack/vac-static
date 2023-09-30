@@ -17,11 +17,11 @@ export const menuItems = {
         //     path: '/personal-training/semi_private_training',
         //     cName: 'dropdown-link'
         // },
-        {
-            title: 'Free Fitness Consultation',
-            path: '/personal-training/free_consultation',
-            cName: 'dropdown-link'
-        }
+        // {
+        //     title: 'Free Fitness Consultation',
+        //     path: '/personal-training/free_consultation',
+        //     cName: 'dropdown-link'
+        // }
     ],
     pool: [
         {

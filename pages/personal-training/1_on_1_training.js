@@ -55,24 +55,13 @@ const oneOnOneTraining = ({data}) => {
 
             <div className="w-screen bg-white p-16 pt-32 text-center lg:mt-40" style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw))', zIndex: '8'}}>
                 <h2 className="mr-auto ml-auto  text-center text-2xl md:text-4xl text-vacblue font-extrabold mb-8 uppercase max-w-prose">1-ON-1 Personal Training sessions are available now! </h2>
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-8">
+                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mb-32">
                 Our 1-on-1 Personal Training package options allow
                 you to choose between 1, 2, or 3 sessions per week with a trainer. Each session
                 is 1 hour in length. We boast some of the most affordable personal training rates
                 in the region. The Vashon Athletic Club&#39;s goal is to make our training services
                 accessible to the entirety of the Vashon community.
                 </p>
-
-                <Button href="https://vacpersonalfitnesstraining.as.me/vacfreefitnessconsultation" text="Schedule a free fitness consultation today!" size="small"/>
-
-
-                <p className="text-left ml-auto mr-auto max-w-prose text-xl text-gray-700 leading-relaxed mt-8 mb-16 lg:mb-40">
-                    If you'd like more in depth information about any of our personal training products or to learn more about the VAC trainers, 
-                    schedule a free Fitness Consultation with our Personal Training Director, Travis Tuchak. If the times available in 
-                    the Fitness Consultation calendar are incompatible with your schedule, 
-                    please email travis@vashonathleticclub.com to schedule an alternate time.                
-                </p>
-
                 
             </div>
 
