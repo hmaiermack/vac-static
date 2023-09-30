@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 import Image from 'next/image'
-import Button from '../../components/Button'
+import Button from '../components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestion, faCircle, faHeartbeat, faUserFriends, faClipboard, faSwimmer, faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
