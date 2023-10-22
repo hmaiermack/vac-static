@@ -5,7 +5,7 @@ import Button from '../../components/Button'
 import AaronInfo from '../../components/trainer-info/AaronInfo'
 import KarenInfo from '../../components/trainer-info/KarenInfo'
 import TristanInfo from '../../components/trainer-info/TristanInfo'
-import MollyInfo from '../../components/trainer-info/MollyInfo'
+import AxelInfo from '../../components/trainer-info/AxelInfo'
 import ClaireInfo from '../../components/trainer-info/ClaireInfo'
 
 
@@ -47,6 +47,7 @@ const index = ({data}) => {
             <KarenInfo />
             <TristanInfo />
             <ClaireInfo />
+            <AxelInfo />
         </div>
 
         <div className="flex flex-col py-8 bg-gray-200">
