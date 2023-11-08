@@ -23,6 +23,8 @@ const TristanInfo = () => {
                     <h2 className="uppercase font-bold text-lg text-gray-700 lg:text-2xl">Personal Trainer</h2>
                     <div className="flex justify-center text-xl ">
                     AxelFSullivan@gmail.com
+                    <br></br>
+                    206-259-0783
                     </div>
                 </div>
             </div>
