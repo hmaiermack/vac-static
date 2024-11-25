@@ -78,7 +78,7 @@ const index = ({data}) => {
                     <br></br>
                     <span className="uppercase text-sm font-bold leading-8">Initiation fees range from $50 to $125 for each new account.</span>
                     <br></br>
-                    <span className="uppercase text-sm font-bold leading-8">Family membership is priced for 3 people, add an additional $25 per month for each member beyond 3.</span>
+                    <span className="uppercase text-sm font-bold leading-8">Family membership is priced for 3 people, add an additional $30 per month for each member beyond 3.</span>
                 </h1>
                 <div className="container flex flex-wrap justify-center ">
                     {displayCards}
