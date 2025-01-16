@@ -37,12 +37,12 @@ const index = () => {
        <div className='w-full h-screen flex justify-center mt-8 mb-8'>
         <div className='w-full md:h-5/6'>
         <Iframe 
-          url="https://captur3d.io/view/vashon-athletic-club/vashon-athletic-club"
+          url="https://captur3d.io/view/vashon-athletic-club/evt"
           width="100%"
           height='100%'
           frameBorder={0}
           allowFullScreen={true}
-          allow='xr-spatial-tracking'
+          allow='xr-spatial-tracking; clipboard-write'
         />
         </div>
        </div>
