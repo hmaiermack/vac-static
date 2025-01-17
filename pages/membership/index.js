@@ -25,12 +25,12 @@ const index = ({data}) => {
         <div className='w-full h-full'>
         
         <Iframe 
-          url="https://my.matterport.com/show/?m=iZgBQnjcUW3"
+          url="https://captur3d.io/view/vashon-athletic-club/evt"
           width="100%"
           height='100%'
           frameBorder={0}
           allowFullScreen={true}
-          allow='xr-spatial-tracking'
+          allow='xr-spatial-tracking; clipboard-write'
           title='Guided virtual tour'
         />
         </div>
