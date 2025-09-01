@@ -36,10 +36,10 @@ export const menuItems = {
         }
     ],
     schedules: [
-        {
-            title: 'Class Descriptions',
-            path: '/schedules/classdescriptions',
-            cName: 'dropdown-link'
-        }
+        // {
+        //     title: 'Class Descriptions',
+        //     path: '/schedules/classdescriptions',
+        //     cName: 'dropdown-link'
+        // }
     ]
 }

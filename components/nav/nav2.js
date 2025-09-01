@@ -123,7 +123,7 @@ export default function Nav2() {
                         {/* <Link href="/pool/stingrays" ><a className="text-base ml-4 block text-vacblue">Stingrays Swim Team</a></Link>
                         <Link href="/pool/swim_lessons" ><a className="text-base ml-4 block text-vacblue">Swim Lessons</a></Link> */}
                         <Link href="/schedules" ><a className="mt-2 text-xl block font-extrabold text-vacblue">Schedules</a></Link>
-                        <Link href="/schedules/classdescriptions" ><a className="text-base ml-4 block text-vacblue">Class Descriptions</a></Link>
+                        {/* <Link href="/schedules/classdescriptions" ><a className="text-base ml-4 block text-vacblue">Class Descriptions</a></Link> */}
                         {/* <Link href="/covid" ><a className="mt-2 text-xl block font-extrabold text-vacblue w-full">COVID-19 Guidelines</a></Link> */}
                         <a className="mt-2 text-xl block font-extrabold text-vacblue w-full" target="_blank" href="https://waiver.smartwaiver.com/v/vashonathleticclub/">Waiver</a>
                     </div>
